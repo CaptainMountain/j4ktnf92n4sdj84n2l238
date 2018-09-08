@@ -1,0 +1,2639 @@
+$pink: #f16d7f
+$pink2: #ef5b70
+$gold: #e4af48
+$gray: #292929
+
+*
+  font-family: 'Lato', sans-serif
+  width: auto
+
+* a
+  text-decoration: none
+
+.Container
+  width: 1140px
+  margin: 0px auto
+  padding: 0px 10px
+
+input[type="submit"]
+  cursor: pointer
+
+input:hover
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.70)
+  z-index: 2
+
+button:hover,
+.Button:hover
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.70)
+  cursor: pointer
+
+.Color_pink
+  color: $pink !important
+
+.Color_red
+  color: #ff0d0d !important
+
+.Color_grey
+  color: #b9b9b9 !important
+
+.Color_black
+  color: #6f6e6e !important
+
+.Red,
+red
+  color: #ff0d0d
+
+.Position_relative
+  position: relative
+
+.Width_auto
+  width: auto !important
+
+.Width_full
+  width: 100% !important
+
+.Marginr_10
+  margin-right: 10px !important
+
+/** ---------------------------------------------------------------- **/
+
+.Header
+  min-width: 1140px
+  height: 100px
+  margin: 0 auto
+  border-bottom: 1px solid #ececec
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.17)*/
+  background-color: #fff
+/*border: 1px solid #ececec
+
+.HeaderFlex
+  display: flex
+  flex-direction: row
+  align-items: center
+  align-content: center
+  justify-content: space-between
+  height: 100%
+
+.Logo
+  display: inline-flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+  &__Image
+    position: relative
+    left: -3px
+  &__Text
+    display: inline-flex
+    flex-direction: row
+    align-content: center
+    align-items: center
+    margin-left: 8px
+    margin-right: 37px
+    line-height: 32px
+    text-transform: uppercase
+    position: relative
+    top: 4px
+    font-size: 27px
+    letter-spacing: 0.68px
+    font-family: Lato, sans-serif
+
+  &__Text_color_black
+    font-weight: 300
+    color: #222222
+
+  &__Text_color_pink_bold
+    /*font-family: "Lato - Black", sans-serif
+    font-weight: 900
+    color: $pink
+
+.BtnExt
+  display: flex
+  order: -1
+  position: relative
+  left: -1
+  width: auto
+  min-width: auto
+
+.Header .Btn
+  width: 87px
+  height: 38px
+  display: flex
+  color: #222222
+  align-items: center
+  align-content: center
+  justify-content: space-around
+  border-radius: 3px 0 0 3px
+  border: 1px solid #e6e6e6
+  background-color: #cdcdcc
+  background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%)
+  order: -1
+  position: relative
+  left: 0
+  letter-spacing: 0.35px
+  font-family: Lato, sans-serif
+  font-size: 14px
+  font-weight: 300
+  padding-left: 9px
+
+.Header .MyAccount
+  display: flex
+  align-items: center
+  align-content: center
+  justify-content: center
+  //justify-content: space-between
+  position: relative
+  top: -1px
+  left: -1px
+  //padding-left: 18px
+  //padding-right: 12px
+
+.Header .MyAccount .Triangle
+  border-top: 5px solid white
+
+.Triangle
+  width: 0px
+  height: 0px
+  border: 5px solid transparent
+  border-top-color: #838383
+  position: relative
+  top: 3px
+
+.Header .Left
+  position: relative
+  top: 1px
+  .SearchTxt
+    box-sizing: border-box
+    width: 280px
+    height: 38px
+    border: 1px solid #e6e6e6
+    background-color: #ffffff
+    padding: 0px 15px
+    color: #a4a4a4
+    font-family: Lato, sans-serif
+    font-size: 14px
+    font-weight: 300
+    border-left: 0px
+    letter-spacing: 0.70px
+
+  .SearchBtn
+    width: 36px
+    height: 38px
+    box-sizing: border-box
+    border: 1px solid #e6e6e6
+    background-color: #ffffff
+    border-left: 0px
+    border-radius: 0px 3px 3px 0px
+    background: url(../img/search.png) 50% 50% no-repeat
+
+/*pink
+  color: $pink
+  font-weight: 900
+  font-size: inherit
+
+.Header .Left,
+.Header .Right
+  display: flex
+  align-items: center
+  align-content: center
+
+.Header .Right .Basket
+  height: 38px
+  width: 38px
+  position: relative
+  display: flex
+  justify-content: flex-start
+  align-items: flex-end
+  cursor: pointer
+  padding-top: 0px
+
+.Header .Right .Basket:hover .DropDownMenu
+  display: flex
+
+.Header .Right .Basket:hover .Square10
+  display: flex
+
+.Header .Right .Basket > img
+  width: 32px
+  height: 29px
+
+.Header .Right .MyAccount
+  width: 130px
+  height: 38px
+  background-color: $pink
+  border: 0px solid #e6e6e6
+  margin-left: 27px
+  color: #ffffff
+  font-family: Lato, sans-serif
+  font-size: 15px
+  font-weight: 400
+  line-height: 32px
+  letter-spacing: 0.38px
+
+.Header .Right .Basket__Count
+  width: 19px
+  height: 19px
+  background-color: $pink
+  color: #fff
+  font-family: 'Lato', sans-serif
+  font-size: 12px
+  font-weight: 700
+  letter-spacing: 0.3px
+  border-radius: 10px
+  text-align: center
+  position: absolute
+  top: 1px
+  right: -9px
+  display: flex
+  justify-content: center
+  align-content: center
+  align-items: center
+
+.Left form
+  position: relative
+  display: flex
+
+/** -------------------------------------------------------------- **/
+
+.Menu
+  height: 50px
+  background-color: #ffffff
+
+.Menu > ul
+  height: inherit
+  display: flex
+  justify-content: center
+  align-content: center
+  align-items: center
+  text-transform: uppercase
+
+.Menu > ul > li
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 700
+  line-height: 26px
+  text-transform: uppercase
+  position: relative
+  border-bottom: 3px solid transparent
+  margin: 0px 6px
+
+.Menu > ul > li:hover
+  border-bottom: 3px solid $pink
+  color: $pink
+  .DropDownMenu
+    display: flex
+  .Square10
+    display: flex
+    left: 30px
+    top: 38px
+
+.Menu > ul > li > a
+  width: inherit
+  height: inherit
+  display: block
+  padding: 11px 17px
+
+.Menu .DropDownMenu
+  display: none
+
+.DropDownMenu
+  position: absolute
+  top: 42px
+  border: 1px solid #e8e8e8
+  border-radius: 5px
+  background-color: #ffffff
+  padding: 21px 25px 10px 25px
+  z-index: 990
+  display: none
+  width: auto
+  min-width: auto
+
+.DropDownMenu .Column:first-of-type
+  margin-left: 0px
+
+.DropDownMenu .Column
+  /**width: 235px**/
+  margin-left: 45px
+
+.Menu .DropDownMenu > .Column
+  width: 235px
+  min-width: 235px
+
+.Basket .DropDownMenu > .Column
+  width: 229px
+  min-width: 229px
+
+.DropDownMenu h4
+  color: #232323
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 600
+  text-transform: uppercase
+  letter-spacing: 0.35px
+  border-bottom: 1px solid #e8e8e8
+  margin-top: 30px
+  padding-bottom: 8px
+
+.DropDownMenu h4:first-of-type
+  margin-top: 0px
+
+.DropDownMenu ul li
+  color: #646464
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 28px
+  letter-spacing: 0.35px
+  a:hover
+    color: black
+    text-shadow: 0 0 1px $gray
+
+.DropDownMenu .Banner
+  width: 255px
+  height: 118px
+  position: relative
+  left: -16px
+  display: flex
+  justify-content: flex-end
+  align-content: flex-end
+  align-items: flex-end
+  margin: 10px 0px
+  a
+    width: inherit
+    height: inherit
+    display: block
+    z-index: 999
+    color: #ffffff
+    font-family: 'Lato', sans-serif
+    font-size: 22px
+    font-weight: 400
+    line-height: 28px
+    text-transform: uppercase
+    letter-spacing: 0.55px
+  span
+    display: block
+    z-index: 999
+  div
+    width: inherit
+    height: inherit
+    position: absolute
+    display: flex
+    align-items: flex-end
+    align-content: flex-start
+    text-align: left
+    justify-content: flex-end
+    flex-direction: column
+    padding: 12px 10px
+    box-sizing: border-box
+
+.ClearBtn
+  background: transparent
+  border-color: transparent
+  outline-color: transparent
+  outline: transparent
+  font-size: 12px
+  width: auto
+  height: auto
+  color: black
+
+.ClearBtn:hover
+  color: red
+  cursor: pointer
+/***text-shadow: 0px 0px 1px black***/
+.ClearBtn:active
+  position: relative
+  font-size: 11px
+  cursor: pointer
+
+.DropDownMenu .CartProduct
+  min-width: 229px
+  width: 229px
+  height: 117px
+  border-bottom: 1px solid #ededed
+  display: flex
+  align-items: center
+  align-content: center
+  justify-content: space-between
+  a
+    height: 85px
+    width: 100%
+    display: flex
+    align-items: center
+    align-content: center
+    margin: 0px
+    padding: 0px
+    text-align: inherit
+    display: flex
+    justify-content: space-between
+  img
+    min-width: 72px
+    width: 72px
+    height: 85px
+
+  .AboutProduct
+    margin-left: 10px
+    height: 85px
+    width: 100%
+    h5
+      color: #222222
+      font-family: 'Lato', sans-serif
+      font-size: 12px
+      font-weight: 700
+      text-transform: uppercase
+      margin-bottom: 10px
+      padding: 0
+    .Stars:hover .Estimated
+      display: none
+    .Stars:hover .Estimate
+      display: flex
+      flex-direction: row-reverse
+    .Stars
+      height: auto
+      width: auto
+      color: $gold
+      font-size: 12px
+      margin-bottom: 10px
+      position: relative
+
+      .Estimated
+        display: flex
+        width: auto
+        height: auto
+
+      .Estimate
+        display: none
+        width: auto
+        height: auto
+        .Star:hover ~ .Star .FullStar
+          color: $gold
+
+      .Star
+        height: auto
+        width: auto
+        position: relative
+        margin: 0px 0px
+        padding: 0px
+        .HalfStar
+          width: 50%
+          height: auto
+          position: absolute
+          top: 0px
+          left: 0px
+          overflow: hidden
+          z-index: 999
+          color: transparent
+        .FullStar
+          width: auto
+          height: auto
+          position: absolute
+          top: 0px
+          left: 0px
+          z-index: 997
+          color: transparent
+        .EmptyStar
+          width: auto
+          height: auto
+          color: $gold
+
+        .HalfStar.Active,
+        .FullStar.Active
+          color: $gold
+
+        .HalfStar:hover
+          color: $gold
+
+        .FullStar:hover
+          color: $gold
+
+    .CountPrice
+      font-family: 'Lato', sans-serif
+      font-size: 12px
+      font-weight: 400
+      text-transform: uppercase
+      display: flex
+      align-content: center
+      align-items: center
+      line-height: 12px
+      .Price
+        padding: 0px
+        margin: 0px
+      .Price::before
+        content: ""
+      .Size_mini
+        font-size: 10px
+
+.DropDownMenu
+  .Summary
+    display: flex
+    justify-content: space-between
+    margin: 19px 1px
+  .WBtn
+    display: flex
+    justify-content: center
+    width: 225px
+    height: 50px
+    line-height: 50px
+    margin: 10px 0px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    font-family: 'Lato', sans-serif
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    padding: 0px
+  a
+    display: block
+    padding: 0px
+    margin: 0px
+  .Checkout
+    border-color: $pink
+    color: $pink
+  .ToCart
+    border-color: #eaeaea
+    color: #4a4a4a
+
+.Header .Left .DropDownMenu
+  top: 36px
+  left: -2px
+  display: none
+  .Column
+    min-width: 262px
+
+.Header .Left form .BtnExt:hover .DropDownMenu
+  display: flex
+
+.Header .Left .DropDownMenu li
+  margin-left: 7px
+
+.Header .Right .DropDownMenu
+  display: none
+  top: 42px
+  left: 0px
+  cursor: default
+
+.Header .Right .Square10
+  left: 20px
+
+a
+  color: inherit
+  font-family: 'Lato', sans-serif
+
+.Square10
+  width: 7px
+  height: 7px
+  border-left: 1px solid #ededed
+  border-top: 1px solid #ededed
+  position: absolute
+  transform: rotate(45deg)
+  left: 12px
+  top: 38px
+  background-color: #ffffff
+  z-index: 999
+  display: none
+  cursor: default
+
+/** -------------------------------------------------------------- **/
+
+.BasketSvg
+  width: 32px
+  height: 29px
+  position: relative
+  top: 2px
+  left: 6px
+  .st0
+    fill: none
+    stroke: #fff
+    stroke-width: 2.3
+    stroke-linecap: round
+    stroke-linejoin: round
+    stroke-miterlimit: 10
+  .st1
+    fill: none
+    stroke: #fff
+    stroke-width: 1.5
+    stroke-linecap: round
+    stroke-linejoin: round
+    stroke-miterlimit: 10
+  .st2
+    fill: none
+    stroke: #fff
+    stroke-width: 2
+    stroke-linecap: round
+    stroke-linejoin: round
+    stroke-miterlimit: 10
+
+.BasketSvg
+  .st0,
+  .st1,
+  .st2
+    stroke: black !important
+
+.BasketSvgWhite
+  width: 26px
+  height: 26px
+  margin-right: 8px
+
+.BasketSvgWhite
+  .st0
+    fill: none
+    stroke: white
+    stroke-width: 2.3
+    stroke-linecap: round
+    stroke-linejoin: round
+    stroke-miterlimit: 10
+  .st1
+    fill: none
+    stroke: white
+    stroke-width: 2
+    stroke-linecap: round
+    stroke-linejoin: round
+    stroke-miterlimit: 10
+  .st2
+    fill: none
+    stroke: white
+    stroke-width: 2
+    stroke-linecap: round
+    stroke-linejoin: round
+    stroke-miterlimit: 10
+
+.Slider
+  height: 614px
+  background-color: #e8e8e8
+
+  .Man
+    height: inherit
+    background: url(../img/man-slider.png) 15px -52px
+    display: flex
+    justify-content: flex-start
+    align-items: center
+
+    .Slider-border
+      height: 92px
+      border-left: #e76f80 solid 12px
+      position: relative
+      top: -37px
+
+    .Slider-text
+      height: 92px
+      text-transform: uppercase
+      position: relative
+      top: -46px
+      margin-left: 12px
+      &__Text
+        font-family: Lato, sans-serif
+        text-transform: uppercase
+        color: #222222
+        font-weight: 600
+      &__Text_size_big
+        font-size: 60px
+        letter-spacing: 1.5px
+        font-weight: 900
+      &__Text_size_small
+        font-size: 40px
+        letter-spacing: 1px
+        padding-top: 3px
+        padding-left: 1px
+        display: inline-block
+
+/** -------------------------------------------------------------- **/
+
+.Category
+  display: flex
+  justify-content: space-between
+  align-items: center
+  align-content: center
+  flex-direction: row
+  margin-top: 100px
+  margin-bottom: 100px
+
+.Category .Column div:first-child
+  margin-top: 0px
+
+.Category-big
+  width: 560px
+  height: 542px
+  margin-top: 24px
+  position: relative
+
+.Category-big:hover
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.46)
+
+.Category-small
+  background-color: #dadad2
+  width: 560px
+  height: 261px
+  margin-top: 24px
+  position: relative
+
+.Category-small:hover
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.46)
+
+.Category-small img
+  float: right
+
+.Category .Label
+  width: auto
+  height: 82px
+  background-color: #ffffff
+  position: absolute
+  top: 26px
+  padding: 16px 18px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  box-sizing: border-box
+
+.Category h3
+  color: #222222
+  font-family: "Lato - Black"
+  font-size: 18px
+  font-weight: 600
+  text-transform: uppercase
+
+.Category h4
+  font-family: "Lato - Black"
+  font-weight: 600
+  text-transform: uppercase
+  color: $pink
+  font-size: 30px
+  letter-spacing: 0.75px
+
+/** -------------------------------------------------------------- **/
+
+.Product-header
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-bottom: 60px
+
+.Product-header h4
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 30px
+  font-weight: 700
+  margin-bottom: 16px
+
+.Product-header p
+  color: #9f9f9f
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: 0.35px
+
+.Products
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+
+.Product
+  width: 264px
+  height: 364px
+  background-color: #fff
+  margin-bottom: 40px
+  display: flex
+  flex-direction: column
+  &__Link
+    width: inherit
+    height: inherit
+    position: relative
+  &__Photo
+    width: inherit
+    height: 280px
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+    background-color: #3a3838
+    position: relative
+    cursor: pointer
+  &__Info
+    display: flex
+    flex-direction: column
+  &__Image
+    height: inherit
+    width: inherit
+    position: absolute
+    left: 0 !important
+    top: 0 !important
+    filter: alpha(opacity=1)
+    opacity: 1
+    margin-right: 8px
+  &__AddBtn
+    width: 123px
+    height: 39px
+    border: 1px solid #ffffff
+    background-color: transparent
+    color: #ffffff
+    font-family: 'Lato', sans-serif
+    font-size: 13px
+    font-weight: 700
+    display: flex
+    align-content: center
+    align-items: center
+    justify-content: center
+  &__AddBtn:hover
+    background-color: #ef5b70
+    border-color: transparent
+  &__AddBtn:checked
+    position: relative
+    top: 2px
+    left: 2px
+  &__Name
+    color: #222222
+    font-family: 'Lato', sans-serif
+    font-size: 13px
+    font-weight: 400
+    text-transform: uppercase
+    margin: 20px 14px 0px 14px
+  &__Price
+    font-family: 'Lato', sans-serif
+    font-size: 16px
+    font-weight: 700
+    //text-transform: uppercase
+    margin: 17px 14px 0px 14px
+
+.Product:hover
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+  .Product__Image
+    filter: alpha(opacity=0.25)
+    opacity: 0.25
+  .Product__AddBtn
+    z-index: 1
+
+/** ----------------------------------------------- **/
+
+.Single-button
+  display: flex
+  justify-content: center
+  align-items: center
+  align-content: center
+
+.ArrowButton
+  /* Style for "Rectangle" */
+  width: 212px
+  height: 48px
+  background-color: $pink
+  color: #ffffff
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 700
+  /* Text style for "B, rowse A" */
+  letter-spacing: 0.4px
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  align-content: center
+  cursor: pointer
+  margin-bottom: 115px
+  border: 0px
+
+  .Arrow1
+    width: 10px
+    height: 3px
+    background-color: #fff
+    margin-left: 9px
+
+  .Arrow2
+    width: 0px
+    height: 0px
+    box-sizing: border-box
+    border-top: 4px solid transparent
+    border-left: 4px solid #fff
+    border-right: 4px solid transparent
+    border-bottom: 4px solid transparent
+
+/** ----------------------------------------------- **/
+
+.Feature
+  height: 529px
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  margin-bottom: 97px
+
+.Feature .LeftSide
+  height: inherit
+  width: 767px
+  background-color: #222224
+  &__Bkg,
+  &__Info
+    position: absolute
+  &__Info
+    margin-top: 145px
+  &__Text
+    color: #ffffff
+    font-family: 'Lato', sans-serif
+    font-size: 32px
+    font-weight: 700
+    text-transform: uppercase
+    margin-left: 40px
+    letter-spacing: 0.9px
+    margin-top: 5px
+    &_size_big
+      font-size: 54px
+      letter-spacing: 1.5px
+      margin-top: 145px
+
+.Feature .Left
+  height: inherit
+  width: 767px
+  background-color: #222224
+
+.Feature .Left .Bkg,
+.Feature .Left .Info
+  position: absolute
+
+.Feature .Left .Info
+
+.Feature .Right
+  height: inherit
+  width: 373px
+  background-color: #222224
+
+.Feature h1
+  color: #ffffff
+  font-family: 'Lato', sans-serif
+  font-size: 54px
+  font-weight: 700
+  text-transform: uppercase
+  margin-left: 40px
+  margin-top: 145px
+  letter-spacing: 1.5px
+
+.Feature pink
+  color: #e76f80
+  font-size: inherit
+  font-family: 'Lato', sans-serif
+  font-weight: inherit
+  text-transform: inherit
+  letter-spacing: inherit
+
+.Feature h2
+  color: #ffffff
+  font-family: 'Lato', sans-serif
+  font-size: 32px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 0.9px
+  margin-left: 40px
+  margin-top: 5px
+
+.Feature .FeatureBox
+
+  margin: 48px 43px 0px 33px
+  box-sizing: border-box
+  height: 116px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.Feature .FeatureBox .Info
+  width: 220px
+
+.Feature .FeatureBox .Info h3
+  color: #fbfbfb
+  font-family: 'Lato', sans-serif
+  font-size: 20px
+  font-weight: 700
+  /* Text style for "Free Deliv" */
+  letter-spacing: 0.5px
+  margin-top: 10px
+  margin-bottom: 17px
+
+.Feature .FeatureBox .Info p
+  color: #fbfbfb
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 300
+  line-height: 24px
+  /* Text style for "W, orldwid" */
+  letter-spacing: 0.35px
+
+/** ------------------------------------------------- **/
+
+.ContainerW
+  margin: 0px auto
+  max-width: 1600px
+  min-width: 1140px
+  display: flex
+  align-items: center
+  align-content: center
+  flex-direction: column
+
+.Subscribe
+  margin: 0px auto
+  max-width: 1600px
+  min-width: 1140px
+  height: 438px
+  /**background-color: #f1f1f1**/
+  display: flex
+  justify-content: center
+  position: relative
+
+.Subscribe .Bkg
+  filter: alpha(opacity=0.65)
+  opacity: 0.65
+
+.Subscribe .Sub
+  width: 1140px
+  position: absolute
+  /* для поддержки центрирования в IE
+  left: 0px
+  right: 0px
+  color: black
+  display: flex
+  flex-direction: row
+  align-content: flex-start
+
+.Subscribe .VertLine
+  width: 1px
+  height: inherit
+  background: #fff
+  z-index: 2
+
+.Subscribe .Left
+  width: 570px
+  box-sizing: border-box
+  height: inherit
+  font-size: 56px
+  z-index: 1
+  display: flex
+  padding-top: 110px
+
+.Subscribe .Left > div
+  margin-right: 28px
+
+.Subscribe .Sub .Left p
+  color: #222224
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-style: italic
+  line-height: 26px
+  /* Text style for "“, Vestibu" */
+  letter-spacing: 0.4px
+  width: 386px
+
+.Subscribe .Sub .Left h3
+  color: $pink
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 700
+  letter-spacing: 0.4px
+  margin-top: 19px
+
+.Subscribe .Sub .Left h4
+  color: #222224
+  font-size: 12px
+  font-weight: 300
+  letter-spacing: 0.3px
+  margin-top: 5px
+
+.SliderRow
+  display: flex
+  flex-direction: row
+  margin-top: 41px
+
+.SliderRect.Active
+  color: $pink
+  background-color: $pink
+
+.SliderRect
+  width: 38px
+  height: 4px
+  background-color: #d6d6d6
+  margin-left: 1px
+  margin-right: 12px
+  cursor: pointer
+
+.Subscribe .Right
+  width: 570px
+  box-sizing: border-box
+  height: inherit
+  z-index: 1
+  padding: 148px 91px 168px 92px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.Subscribe .Right h5
+  color: #222224
+  font-family: 'Lato', sans-serif
+  font-weight: 400
+  font-size: 24px
+  letter-spacing: 0.6px
+  text-transform: uppercase
+  margin-bottom: 8px
+
+.Subscribe .Right h6
+  color: #222224
+  font-family: 'Lato', sans-serif
+  font-weight: 400
+  font-size: 14px
+  letter-spacing: 0.6px
+  text-transform: uppercase
+  letter-spacing: 0.35px
+  margin-bottom: 35px
+
+.Subscribe .Right form
+  display: flex
+  flex-direction: row
+
+.Subscribe .Right form input[type="email"]
+  width: 282px
+  height: 46px
+  box-sizing: border-box
+  background-color: #e1e1e1
+  border: 0px
+  color: #222224
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: 0.35px
+  padding-left: 20px
+  padding-right: 5px
+  border-radius: 23px 0px 0px 23px
+
+.Subscribe .Right form input[type="submit"]
+  width: 104px
+  height: 46px
+  box-sizing: border-box
+  border-radius: 0 23px 23px 0
+  background-color: $pink
+  border: 0px
+  color: #ffffff
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: 0.35px
+  cursor: pointer
+
+/** ------------------------------------------------- **/
+
+.FooterMenu
+  padding-top: 110px
+  padding-bottom: 65px
+  height: auto
+  display: flex
+  flex-direction: row
+
+.Col
+  display: flex
+  flex-direction: column
+  align-content: flex-start
+
+.L1
+  width: 490px
+  padding-right: 55px
+  box-sizing: border-box
+
+.L2,
+.L3,
+.L4
+  width: 220px
+  padding-left: 10px
+  padding-right: 10px
+  box-sizing: border-box
+
+.FooterMenu pink
+  font-size: inherit
+  font-family: 'Lato', sans-serif
+  color: $pink
+  font-weight: 800
+  text-transform: inherit
+  letter-spacing: inherit
+
+.FooterMenu .Col > p
+  color: #898989
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 300
+  /* Text style for "Objectivel" */
+  letter-spacing: 0.35px
+  margin-top: 30px
+  line-height: 24px
+  display: flex
+  align-content: center
+
+.FooterMenu .Col .Head
+  color: $pink
+  font-family: 'Lato', sans-serif
+  font-size: 18px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 0.45px
+  margin-top: 14px
+  margin-bottom: 45px
+
+.FooterMenu .Col li:first-child
+  margin-top: 0px
+
+.FooterMenu .Col li
+  color: #898989
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 400
+  letter-spacing: 0.4px
+  margin-top: 30px
+
+.Col ul li a:hover
+  color: black
+  text-shadow: 0 0 1px $gray
+
+/** ---------------------------------------------------------------- **/
+
+.Footer
+  height: 80px
+  background-color: #e6e6e6
+
+.Footer > div
+  height: inherit
+  display: flex
+  justify-content: space-between
+  align-content: center
+  align-items: center
+
+.Footer .Socials
+  display: flex
+
+.Footer p
+  color: #7a7a7a
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 400
+  /* Text style for "©,  2017" */
+  letter-spacing: 0.4px
+
+.Footer .Social
+  width: 32px
+  height: 32px
+  background-color: #ffffff
+  display: flex
+  justify-content: center
+  align-items: center
+  margin: 0px 4px
+  font-size: 1em
+  color: #b2b2b2
+
+.Footer .Social:hover
+  color: white
+  background-color: #e76f80
+
+/** ------------------------------------------- **/
+
+.BreadCrumbs
+  background-color: #f8f3f4
+  margin: 0px auto
+  max-width: 1600px
+  min-width: 1140px
+
+.BreadCrumbs > div
+  display: flex
+  justify-content: space-between
+  padding-top: 65px
+  padding-bottom: 65px
+
+.BreadCrumbs .Left,
+.BreadCrumbs .Right
+  display: flex
+  align-content: center
+  align-items: center
+
+.BreadCrumbs h2
+  display: inline-block
+  color: $pink
+  font-family: "Lato - Black"
+  font-size: 24px
+  font-weight: 400
+  text-transform: uppercase
+
+.BreadCrumbs .Right nav ul
+  display: inline-flex
+  flex-direction: row
+
+.BreadCrumbs a
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  color: #636363
+  font-weight: 300
+  font-weight: 700
+
+.BreadCrumbs li::before
+  content: " / "
+  white-space: pre
+
+.BreadCrumbs li:first-child
+  color: transparent
+
+.BreadCrumbs ul li a:hover,
+.BreadCrumbs ul li a.Active
+  color: $pink
+
+/****************************************************************************/
+
+.BuyChain
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  margin-bottom: 93px
+
+.BuyChain .Stage
+  padding-top: 33px
+  padding-bottom: 33px
+  border-bottom: 1px solid #e8e8e8
+
+.BuyChain .Stage:first-child
+  padding-top: 89px
+
+.BuyChain .Stage > div
+  display: none
+
+.BuyChain .Active > div
+  display: flex
+  flex-direction: column
+
+.BuyChain .Stage h3
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.BuyChain .Stage1 .Forms
+  display: flex
+  flex-direction: row
+
+.BuyChain .Stage1 .Forms .Left
+  display: flex
+  flex-direction: column
+  padding-left: 25px
+  box-sizing: border-box
+  width: 50%
+
+.BuyChain .Stage1 .Forms .Right
+  display: flex
+  flex-direction: column
+  padding-left: 14px
+  box-sizing: border-box
+  width: 50%
+
+.BuyChain .Stage1 h4
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 400
+  text-transform: uppercase
+  margin-top: 33px
+
+.BuyChain .Stage1 h4:first-child
+  margin-top: 39px
+
+.BuyChain .Stage1 h5
+  color: #b3b2b2
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 400
+  margin-top: 15px
+
+.BuyChain .Stage1 .Left .Formb
+  display: flex
+  flex-direction: column
+
+.BuyChain .Stage1 .Left .Formb .Radio1
+  margin-top: 34px
+  display: flex
+  align-items: center
+  align-content: center
+
+.BuyChain .Stage1 .Left .Formb .Radio2
+  margin-top: 20px
+  display: flex
+  align-items: center
+  align-content: center
+
+.BuyChain .Stage1 .Left .Formb input[type="submit"]
+  width: 180px
+  height: 50px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  margin-top: 38px
+  margin-bottom: 46px
+  box-sizing: border-box
+
+.Radio
+  $radioSize: 11px
+  &__Input
+    display: none
+  &__Label
+    display: flex
+    align-content: center
+    align-items: center
+    color: #222222
+    font-family: Lato, sans-serif
+    font-size: 12px
+    font-weight: 400
+    text-transform: uppercase
+    position: relative
+    top: 2px
+  &__Sign
+    white-space: pre
+    height: $radioSize
+    width: $radioSize
+    font-size: 8px
+    display: inline-flex
+    align-content: center
+    align-items: center
+    justify-content: center
+    border: 1px solid #000
+    border-radius: 50%
+    margin-right: 14px
+  &__Point
+    opacity: 0
+    height: $radioSize/2
+    width: $radioSize/2
+    border: ($radioSize/4+1) solid #222
+    border-radius: 50%
+    box-sizing: border-box
+  &__Input:checked + &__Label &__Point
+    opacity: 1 !important
+
+.BuyChain .Stage1 .Right h6
+  margin-top: 16px
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+
+.BuyChain .Stage1 .Right .Req::after
+  content: "*"
+  white-space: pre
+  color: red
+
+.F13
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+
+.BuyChain .Stage1 .Right p
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 400
+  margin-top: 22px
+  box-sizing: border-box
+
+.BuyChain .Stage1 .Right .Text_MarginLeft
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  margin-left: 32px
+
+.BuyChain .Stage1 .Right a:hover
+  text-shadow: 0 0 1px $gray
+
+.BuyChain .Stage1 .Right input[type="email"],
+.BuyChain .Stage1 .Right input[type="password"]
+  width: 390px
+  height: 45px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  margin-top: 16px
+  color: #4a4a4a
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 700
+  padding: 0px 15px
+
+.BuyChain .Stage1 .Right input[type="submit"]
+  width: 180px
+  height: 50px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  margin: 0
+  padding: 0
+  margin-top: 30px
+
+/***************************** Cart *****************************************/
+
+.Cart
+  display: flex
+  flex-direction: column
+  margin-top: 90px
+  margin-bottom: 90px
+  position: relative
+
+.Cart .Head
+  display: flex
+  flex-direction: row
+  padding-bottom: 20px
+  border-bottom: 1px solid #eaeaea
+  box-sizing: border-box
+
+.Cart .RowProduct
+  display: flex
+  flex-direction: row
+  padding: 22px 0px 25px 0px
+  border-bottom: 1px solid #eaeaea
+  box-sizing: border-box
+
+.Cart .RowProduct:hover
+  background-color: #fcfcfc
+
+.Cart .Left
+  padding-left: 20px
+  height: 115px
+
+.Cart .Right
+  margin-left: 21px
+  display: flex
+  flex-direction: column
+  height: 115px
+
+.Cart .Right .Parameters
+  display: inline-flex
+  flex-direction: column
+  flex-wrap: wrap
+  justify-content: flex-start
+  height: 80px
+
+.Cart h2
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 700
+  text-transform: uppercase
+
+.Cart .RowProduct h3
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 400
+  text-transform: uppercase
+  padding-bottom: 30px
+
+.Cart .Detail,
+.Cart .Detail a
+  width: 510px
+  display: inline-flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+  box-sizing: border-box
+
+.Cart .UnitPrice
+  width: 71px
+  display: flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+  justify-content: center
+  box-sizing: border-box
+  margin-right: 95px
+
+.Cart .Quantity
+  width: 70px
+  display: flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+  box-sizing: border-box
+  justify-content: center
+  margin-right: 80px
+
+.Cart .Shipping
+  width: 67px
+  display: flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+  box-sizing: border-box
+  justify-content: center
+  margin-right: 80px
+
+.Cart .Price
+  width: 65px
+  display: flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+  box-sizing: border-box
+  justify-content: center
+  margin-right: 50px
+
+.Cart .Action
+  width: 50px
+  display: flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+  box-sizing: border-box
+  justify-content: center
+
+.Cart .RowProduct div.Parameter
+  display: flex
+  padding: 3px 0px
+  flex-wrap: nowrap
+  flex-direction: row
+  padding: 5px 30px 5px 0px
+  width: 150px
+
+.Cart .RowProduct p.Name
+  font-family: 'Lato', sans-serif
+  color: #575757
+  font-weight: 400
+  font-size: 13px
+  display: inline-flex
+
+.Cart .RowProduct p.Name::after
+  content: ":"
+
+.Cart .RowProduct p.Value
+  color: #6f6e6e
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 300
+
+.Cart .RowProduct .Detail p.Value
+  padding-left: 5px
+
+.Cart .RowProduct .Detail a img
+  width: 100px
+  height: 115px
+  background-color: #fff
+
+.Cart input[type="text"]
+  width: 54px
+  height: 30px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #656565
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 400
+  line-height: 20px
+  text-align: center
+
+.Cart .ClearBtn
+  color: #c0c0c0
+  border: 0px solid transparent
+  font-size: 14px
+  padding: 0
+
+.Cart .ClearBtn:hover
+  color: red
+  outline: 0px solid transparent
+
+.Cart .ClearBtn:active
+  font-size: 13px
+
+button,
+button:active,
+button:focus,
+.Button,
+.Button:active,
+.Button:focus
+  outline: 0 !important
+  border: 0px
+
+/*********************************************************************/
+
+.OrderButtons
+  width: inherit
+  display: flex
+  justify-content: space-between
+  margin: 44px 0px
+
+.OrderButtons button:first-child
+  width: 235px
+
+.OrderButtons button
+  height: 50px
+  width: 225px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #4a4a4a
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+
+.OrderPanel
+  margin-top: 20px
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: space-between
+
+.OrderPanel .Block
+  width: 360px
+  display: flex
+  flex-direction: column
+
+.OrderPanel .Block form
+  display: flex
+  flex-direction: column
+  position: relative
+
+.OrderPanel .Block form input
+  width: 355px
+  height: 45px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  padding: 0px 20px
+  box-sizing: border-box
+  margin-top: 20px
+  text-align: left
+  color: #b1b1b1
+
+/**** цвет для placeholder ***/
+
+input::-webkit-input-placeholder
+  color: #b1b1b1
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 300
+
+input::-moz-placeholder
+  color: #b1b1b1
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 300
+  border: transparent
+
+.OrderPanel .B1 .Triangle
+  position: absolute
+  left: 333px
+  top: 40px
+  border-top-color: #bdbdbd
+  z-index: 900
+
+.OrderPanel .B1 input[type="submit"]
+  width: 100px
+  height: 35px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #4a4a4a
+  font-family: 'Lato', sans-serif
+  font-size: 11px
+  font-weight: 700
+  text-transform: uppercase
+  padding: 0px
+  text-align: center
+
+.OrderPanel .B2 input[type="submit"]
+  width: 118px
+  height: 35px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #4a4a4a
+  font-family: 'Lato', sans-serif
+  font-size: 11px
+  font-weight: 700
+  text-transform: uppercase
+  padding: 0px
+  text-align: center
+
+.OrderPanel .B2 label
+  margin-top: 28px
+  margin-bottom: 4px
+  color: #000000
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 300
+
+.S11-400
+  color: #4a4a4a
+  font-family: 'Lato', sans-serif
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
+
+.S13-300
+  color: #b1b1b1
+  font-family: 'Lato', sans-serif
+  font-size: 13px
+  font-weight: 300
+
+.S16-700
+  color: #222222
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.OrderPanel__Price:before
+  content: "      "
+  white-space: pre
+
+.B3
+  width: 360px
+  height: 214px
+  padding: 40px 43px 42px 44px
+  justify-content: flex-end
+  align-content: flex-end
+  align-items: flex-end
+  box-sizing: border-box
+  background-color: #f5f3f3
+
+.B3 p:first-child
+  margin-bottom: 14px
+
+.B3 .Line
+  width: 273px
+  height: 1px
+  background-color: #e2e2e2
+  margin: 22px 0px 17px
+
+.Cart .Checkout
+  position: absolute
+  width: 273px
+  height: 50px
+  background-color: $pink
+  color: #ffffff
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+  border: 1px solid transparent
+  top: 362px
+  left: 834px
+  z-index: 900
+
+.Cart .B3 .Checkout
+  position: static
+  z-index: -999
+
+/***********************************************************************/
+
+.SingleProduct
+  margin-bottom: 73px
+
+.SingleProduct .ProductSlider
+  width: 100%
+  display: inline-flex
+  justify-content: space-between
+  align-content: center
+  align-items: center
+  flex-direction: row
+  background-color: #f7f7f7
+  border: 1px solid #eaeaea
+  padding-top: 10px
+  padding-bottom: 83px
+  box-sizing: border-box
+
+.SingleProduct .ProductSlider .Btn
+  width: 47px
+  height: 47px
+  background-color: lightgrey
+  color: #fff
+  text-align: center
+  line-height: 47px
+  font-size: 18px
+
+.SingleProduct .ProductSlider .Btn:hover
+  color: white
+  background-color: $pink
+
+.SingleProduct .ProductInfo
+  padding: 73px 249px 122px 249px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  box-sizing: border-box
+  position: relative
+  top: -86px
+  display: flex
+  flex-direction: column
+  align-content: center
+  align-items: center
+  form
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-content: center
+    align-items: center
+
+.SingleProduct p
+  color: #5e5e5e
+  font-family: 'Lato', sans-serif
+  width: 100%
+  text-align: center
+
+.S18-400
+  font-size: 18px
+  font-weight: 400
+  text-transform: uppercase
+
+.S14-700
+  color: #2f2f2f
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+
+.S14-300
+  color: #5e5e5e
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 300
+
+.S24-700
+  font-size: 24px
+  font-weight: 700
+
+.Pink
+  color: #ef5b70 !important
+
+grey
+  color: #b9b9b9
+
+.SingleProduct .PinkBorderBtn
+  width: 537px
+  height: 55px
+
+.PinkBorderBtn
+  border: 1px solid #ef5b70
+  background-color: transparent
+  padding-left: 40px
+  color: #ef5b70
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 700
+
+.AddtoCart:hover
+  background-color: #ef5b70
+  color: white
+  border-color: transparent
+
+.SingleProduct .Line
+  width: 642px
+  height: 1px
+  border: 0px solid #eaeaea
+  background-color: #eaeaea
+  margin: 43px 0px 63px 0px
+
+.SingleProduct .ProductInfo form
+  margin: 0px 53px
+
+.Row
+  display: inline-flex
+  flex-direction: row
+
+.Column
+  display: flex
+  flex-direction: column
+
+.SingleProduct .ProductInfo form .Row
+  justify-content: space-between
+  width: 100%
+
+.SingleProduct .ProductInfo form .Column input
+  width: 144px
+  height: 35px
+  margin: 16px 0px 28px 0px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #bcbcbc
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  padding: 12px 15px
+  box-sizing: border-box
+
+.MT18
+  margin-top: 18px
+
+.MT67
+  margin-top: 67px
+
+.MT28
+  margin-top: 28px
+
+.SingleProduct .ProductInfo .MT67
+  text-align: center
+
+.SingleProduct .ProductInfo .MT28 span
+  text-align: center
+  padding: 0px 22px
+
+.MT37
+  margin-top: 37px
+
+.SeeAlso
+  color: #4d4d4d
+  font-family: "Lato - Black"
+  font-size: 24px
+  font-weight: 900
+  line-height: 20px
+  text-transform: uppercase
+  margin-top: 20px
+  margin-bottom: 72px
+
+/******************ВЫБОР ЦВЕТА ТОВАРА***********************/
+
+.Color
+  position: relative
+
+.Selector
+  width: 150px
+  position: relative
+
+.Selector i
+  position: absolute
+  top: 10px
+  right: 8px
+  background: #fff
+  font-size: 14px
+
+.Color > .Selector
+  width: 144px
+  height: 35px
+  margin: 16px 0px 28px 0px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #bcbcbc
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  padding: 10px 20px
+  box-sizing: border-box
+  display: inline-flex
+
+.Color .SelectorMenu .SelectorValue
+  width: 144px
+  height: 35px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #bcbcbc
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  padding: 10px 20px
+  box-sizing: border-box
+  display: inline-flex
+
+.Color .Selector input
+  display: none
+
+.Color .Selector .ColorBkg
+  width: 12px
+  height: 12px
+  position: relative
+  left: -8px
+
+.SelectorMenu
+  width: 144px
+  padding: 0px
+  margin: 0px
+  position: absolute
+  top: 34px
+  left: -1px
+  display: none
+
+.Color .Selector:hover
+  box-shadow: 0px 0px 3px rgba(0, 0, 255, 0.70)
+
+.Color .Selector:hover .SelectorMenu
+  display: inline
+
+.Color .Selector .SelectorMenu .SelectorValue:hover
+  box-shadow: 0px 0px 3px rgba(150, 150, 150, 0.70)
+
+/********************ВЫБОР РАЗМЕРА***************/
+
+.Selector
+  position: relative
+  width: auto
+  .Triangle
+    position: relative
+    top: 3px
+    left: 0px
+    right: 0px
+    margin-left: 19px
+  &_row
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+  &__Input
+    display: none
+  &__Label
+    display: flex
+    font-size: 14px
+    color: #2f2f2f
+  &__LabelLeft
+    display: inline-block
+    height: 30px
+    width: auto !important
+    border: 1px solid #ebebeb
+    background-color: #ffffff
+    color: #6f6e6e
+    font-family: Lato, sans-serif
+    font-size: 14px
+    font-weight: 400
+    line-height: 30px
+    padding: 0px 8px 0px 13px
+    box-sizing: border-box
+    position: relative
+    left: 1px
+    white-space: nowrap
+  &__Box
+    width: 144px
+    height: 35px
+    line-height: 35px
+    font-size: 13px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    color: #bcbcbc
+    font-family: Lato, sans-serif
+    display: flex
+    align-items: center
+    align-content: center
+    justify-content: space-between
+    position: relative
+    padding: 0px 15px
+    box-sizing: border-box
+    &_height_small
+      height: 30px
+    &_margin_19
+      padding-right: 19px
+    &_paddingl_12
+      padding-left: 12px !important
+  &__Arrow
+    /*position: relative
+    top: 0px
+    right: 9px !important
+  &__Options
+    display: none
+    flex-direction: column
+    position: absolute
+    top: 65px
+    width: 144px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    box-sizing: border-box
+    z-index: 999
+    &_top_30
+      top: 30px
+    &_width_auto
+      width: auto !important
+
+  &__Input:checked ~ &__Options
+    display: flex
+  &__Option
+    height: 22px
+    line-height: 22px
+    font-size: 13px
+    background-color: #ffffff
+    color: #bcbcbc
+    font-family: Lato, sans-serif
+    display: flex
+    flex-direction: row
+    align-content: center
+    align-items: center
+    box-sizing: border-box
+    padding: 0px 15px
+    &_padding_no
+      padding: 0px
+    &_paddingl_12
+      padding-left: 12px !important
+  &__Option:hover
+    background-color: #6f6e6e
+    color: white !important
+  &__ColorSquare
+    width: 12px
+    height: 12px
+    /*position: relative
+    /*left: -8px
+    margin-right: 11px
+  &__Column
+    display: flex
+    flex-direction: column
+    width: auto
+
+.SingleProduct
+  &__Selector_margin
+    margin: 16px 0px 28px 0px
+
+/***********************Страница каталога товаров******************/
+
+.CatalogPage
+  margin-top: 60px
+
+.CatalogPage > div
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.CatalogPage .LeftMenu
+  display: flex
+  flex-direction: column
+  width: 320px
+  height: auto
+  margin-right: 30px
+  .Details
+    margin-top: 17px
+    margin-bottom: 6px
+    input
+      display: none
+    label
+      width: 243px
+      height: 37px
+      border-left: 5px solid $pink2
+      /*border-bottom: 1px solid #ebebeb
+      line-height: 37px
+      color: #6f6e6e
+      font-family: 'Lato', sans-serif
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      padding: 0px 11px
+      align-self: center
+      text-align: left
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      cursor: pointer
+      position: relative
+      box-sizing: border-box
+      .Triangle
+        position: absolute
+        right: 10px
+        top: 15px
+        border-top-color: #6f6e6e
+    .Line
+      height: 1px
+      width: 92%
+      background-color: #ebebeb
+      position: relative
+      top: -1px
+      left: 5px
+
+    input:checked + label
+      color: $pink
+    input:checked + label .Triangle
+      top: 10px
+      border-bottom-color: #ef5b70
+      border-top-color: transparent
+    input:checked + label + .Line + nav
+      display: flex
+
+    nav
+      display: none
+    nav ul
+      display: flex
+      flex-direction: column
+      align-content: flex-start
+      align-items: flex-start
+      li
+        color: #6f6e6e
+        font-family: 'Lato', sans-serif
+        font-size: 14px
+        font-weight: 400
+        text-transform: capitalize
+        padding: 11px 22px
+        transition: text-shadow 0.2s
+      li a:hover
+        color: black
+        text-shadow: 0 0 0.5px black
+
+.ContainerW .Features
+  height: 341px
+  background-color: #222224
+
+.Features
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  color: white
+  background-color: #222224
+
+.RowFeatures
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-content: center
+  align-items: center
+  height: 341px
+
+.Features .RowFeatures .FeatureBox
+  width: 309px
+  display: flex
+  flex-direction: column
+  align-items: center
+  align-content: center
+  text-align: center
+  margin: 0px 10px 30px 10px
+
+.Features .RowFeatures .FeatureBox h3
+  color: #fbfbfb
+  font-family: 'Lato', sans-serif
+  font-size: 20px
+  font-weight: 700
+  margin-top: 32px
+  margin-bottom: 17px
+
+.Features .RowFeatures .FeatureBox p
+  color: #fbfbfb
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 300
+  line-height: 23.95px
+  width: 100%
+
+.CatalogPage .Catalog
+  display: inline-flex
+  flex-direction: column
+
+.CatalogPage .Catalog .ProductsPage
+  display: inline-flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: flex-start
+
+.Catalog .ProductsPage .Product
+  /*margin-left: 18px
+  margin-left: 27px
+
+.ProductsPage
+  width: 846px
+  height: auto
+
+.ProductsPage .Product:nth-child(3n-2)
+  margin-left: 0px
+
+.Catalog .Pages
+  width: inherit
+  display: inline-flex
+  flex-direction: row
+  justify-content: space-between
+/*margin-left: 20px
+
+.Catalog .Pages .PagesBlock ul
+  display: flex
+  justify-content: space-between
+  border: 1px solid #ebebeb
+  width: 261px
+  height: 44px
+  margin-bottom: 110px
+  color: #c4c4c4
+  font-family: 'Lato', sans-serif
+  font-size: 16px
+  font-weight: 600
+  line-height: 44px
+  padding: 0px 8px
+
+.Catalog .Pages .PagesBlock ul li
+  padding: 0px 8px
+
+.Catalog .Pages .PagesBlock ul li:hover,
+.Catalog .Pages .PagesBlock ul li.Active
+  color: $pink
+
+.Catalog .Pages .PagesBlock #noactive
+  color: #c4c4c4
+
+.Catalog .PinkBorderBtn
+  width: 150px
+  height: 44px
+  border-radius: 3px
+  padding: 0px
+
+.Catalog
+  height: auto
+  margin-top: 10px
+
+.Catalog .Filters
+  height: auto
+/*margin-left: 18px
+
+.Catalog .Filters .Column
+  height: auto
+  width: 280px
+  margin-bottom: 40px
+
+.Catalog .Filters .Trending ul
+  height: 20px
+  display: inline-flex
+  flex-direction: row
+  flex-wrap: nowrap
+  width: 176px
+  height: auto
+  color: #6f6e6e
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+
+.Catalog .Filters .Trending ul li
+  height: 20px
+  padding: 0px 10px
+  margin-bottom: 10px
+  border-left: 1px solid #dfdfdf
+
+.Catalog .Filters .Trending ul li:first-child
+  border-left: 1px solid transparent
+  padding-left: 0px
+
+.Catalog .Filters .Trending ul li:last-child
+  border-right: 1px solid transparent
+  padding-right: 0px
+
+.Catalog .Filters .Trending:last-child
+  margin-bottom: 0px
+
+.Catalog .SelectorFilters
+  height: 50px
+  display: flex
+  flex-direction: row
+  align-items: center
+  align-content: center
+  background-color: #f3f3f3
+  /*margin-left: 18px
+  padding-left: 9px
+  margin-bottom: 48px
+
+.Catalog .SelectorFilters .WhiteLabel
+  display: block
+  height: 30px
+  border: 1px solid #ebebeb
+  background-color: #ffffff
+  color: #6f6e6e
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 30px
+  padding: 0px 13px
+  box-sizing: border-box
+
+.Catalog .SelectorFilters select
+  margin-right: 10px
+  position: relative
+  left: -1px
+
+.Catalog .Filters h2
+  color: #6f6e6e
+  margin-bottom: 25px
+
+.Catalog ul li:hover
+  color: $pink
+
+.Catalog .Row
+  flex-wrap: wrap
+
+.Catalog .Size .Checkbox
+  width: 58px
+  display: flex
+  align-content: center
+  align-items: center
+  flex-direction: row
+  flex-wrap: nowrap
+  margin-bottom: 10px
+
+.Catalog .Size .Checkbox
+  color: #6f6e6e
+  font-family: "Open Sans"
+  font-size: 14px
+  font-weight: 400
+  text-transform: uppercase
+  outline-color: transparent
+
+.Catalog .Size .Checkbox *
+  cursor: pointer
+
+/****************************ФОРМА РЕГИСТРАЦИИ***************************/
+
+$regWidth: 340px
+$regHeight: 40px
+.Registration
+  display: flex
+  flex-direction: column
+  align-content: center
+  align-items: center
+  justify-content: center
+  max-width: $regWidth
+  margin: 150px auto 250px auto
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+
+  &__Input
+    width: $regWidth
+    height: $regHeight
+    padding: 0px 10px
+    box-sizing: border-box
+    margin-bottom: 10px
+    border: 1px solid #aaaaaa
+    border-radius: 4px
+  &__Button
+    width: $regWidth
+    height: $regHeight
+    padding: 0px 10px
+    box-sizing: border-box
+    border: 1px solid transparent
+    background-color: $pink
+    color: white
+    font-family: 'Lato', sans-serif
+    font-size: 14px
+    align-items: center
+    border-radius: 4px
+    margin-bottom: 20px
+  &__PersonalDataPolicy
+    width: 600px
+    text-align: center
+    font-family: 'Lato', sans-serif
+    font-size: 14px
+    line-height: 22px
+  a
+    color: $pink
+  a:hover
+    color: $pink
+    text-shadow: $pink 0px 0px 1px
+
+/****************************Agreement***************************/
+.Agreement
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  display: block
+  margin: 20px 110px
+  padding: 0px
+  h1
+    font-family: 'Lato', sans-serif
+    font-size: 22px
+    margin: 15px 0px
+  h2
+    font-family: 'Lato', sans-serif
+    font-size: 18px
+    margin: 15px 0px
+  p
+    font-family: 'Lato', sans-serif
+    font-size: 14px
+    margin: 15px 0px
+    padding: 0px
+
+/****************************Login Form***************************/
+
+.Login
+  display: flex
+  flex-direction: column
+  align-content: center
+  align-items: center
+  justify-content: center
+  max-width: $regWidth
+  margin: 150px auto 250px auto
+  font-family: 'Lato', sans-serif
+  font-size: 15px
+
+  &__Input, &__Password
+    width: $regWidth
+    height: $regHeight
+    padding: 0px 10px
+    box-sizing: border-box
+    margin-bottom: 10px
+    border: 1px solid #aaaaaa
+    border-radius: 4px
+  &__Button
+    width: $regWidth
+    height: $regHeight
+    padding: 0px 10px
+    box-sizing: border-box
+    border: 1px solid transparent
+    background-color: $pink
+    color: white !important
+    font-family: 'Lato', sans-serif
+    font-size: 15px
+    align-items: center
+    border-radius: 4px
+    margin-bottom: 20px
+    display: flex !important
+    justify-content: center
+  &__Button:hover
+    cursor: pointer
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.70)
+  &__PersonalDataPolicy
+    width: 600px
+    text-align: center
+    font-family: 'Lato', sans-serif
+    font-size: 15px
+    line-height: 22px
+  &__Links
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    width: $regWidth
+    font-family: 'Lato', sans-serif
+    font-size: 15px
+
+  &__Error_Auth, &__Error_Input, &__Error_Password
+    font-family: 'Lato', sans-serif
+    font-size: 15px
+    color: red
+    margin-bottom: 10px
+
+  a
+    display: block
+    color: black
+  a:hover
+    text-shadow: black 0px 0px 1px

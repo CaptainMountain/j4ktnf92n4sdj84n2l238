@@ -1,0 +1,98 @@
+{
+  "result": 1,
+  "products": [
+    {
+      "id": 43,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "руб.",
+      "img_URL": "img/product43.png",
+      "img_alt": "product43",
+
+      "quantity": 2,
+      "shipping_price": 0,
+      "rating": 1.8,
+      "characteristics": [
+        {
+          "name": "Color",
+          "value": "Red"
+        },
+        {
+          "name": "Size",
+          "value": "XII"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 100,
+      "currency": "руб.",
+      "img_URL": "img/product44.png",
+      "img_alt": "product44",
+
+      "quantity": 1,
+      "shipping_price": 0,
+      "rating": 2.5,
+      "characteristics": [
+        {
+          "name": "Color",
+          "value": "Blue"
+        },
+        {
+          "name": "Size",
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "руб.",
+      "img_URL": "img/product45.png",
+      "img_alt": "product43",
+
+      "quantity": 2,
+      "shipping_price": 0,
+      "rating": 3,
+      "characteristics": [
+        {
+          "name": "Color",
+          "value": "Red"
+        },
+        {
+          "name": "Size",
+          "value": "XII"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 100,
+      "currency": "руб.",
+      "img_URL": "img/product46.png",
+      "img_alt": "product44",
+
+      "quantity": 1,
+      "shipping_price": 0,
+      "rating": 2.5,
+      "characteristics": [
+        {
+          "name": "Color",
+          "value": "Blue"
+        },
+        {
+          "name": "Size",
+          "value": "M"
+        }
+      ]
+    }
+  ],
+  "errorMessage": "Сообщение об ошибке"
+}

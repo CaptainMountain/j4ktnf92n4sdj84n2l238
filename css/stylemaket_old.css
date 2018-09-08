@@ -1,0 +1,2298 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+* a {
+    text-decoration: none;
+}
+
+
+
+.Container {
+    width: 1140px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+
+}
+
+input:hover {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.70);
+    z-index: 2;
+}
+
+button:hover {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.70);
+    cursor: pointer;
+}
+
+
+
+
+/** ---------------------------------------------------------------- **/
+
+.Header {
+    min-width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 2px solid #ececec;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);*/
+    background-color: #fff;
+    border: 1px solid #ececec;
+
+}
+
+.HeaderFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.Header p {
+    color: #222222;
+    font-size: 27px;
+    font-weight: 300;
+    display: flex;
+    align-content: center;
+}
+
+.Header a {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.Header .Left a p {
+    margin-left: 13px;
+    margin-right: 37px;
+}
+
+/**
+.Header .Left .Browse {
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+}
+**/
+
+.Header .Btn {
+    width: 87px;
+    height: 38px;
+    display: flex;
+    color: #222222;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    order: -1;
+    position: relative;
+    /*noinspection CssInvalidPropertyValue*/
+    left: -1;
+}
+
+.Header .MyAccount {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.Header .MyAccount .Triangle {
+    border-top: 5px solid white;
+}
+
+.Triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid #838383;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: relative;
+    top: 3px;
+}
+
+.Header .Left .SearchTxt {
+    box-sizing: border-box;
+    width: 280px;
+    height: 38px;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    padding: 0px 16px;
+    color: #a4a4a4;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    border-left: 0px;
+}
+
+.Header .Left .SearchBtn {
+    width: 38px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    border-left: 0px;
+    border-radius: 0px 3px 3px 0px;
+    background: url(../img/search.png) 50% 50% no-repeat;
+}
+
+pink {
+    color: #f16d7f;
+    font-weight: 900;
+    font-size: inherit;
+}
+
+.Header .Left,
+.Header .Right {
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.Header .Right .Basket {
+    height: 38px;
+    width: 38px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.Header .Right .Basket img {
+    width: 32px;
+    height: 29px;
+}
+
+.Header .Right .MyAccount {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    border: 0px solid #e6e6e6;
+    margin-left: 27px;
+    color: #fff;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+}
+
+.Header .Right .Count {
+    width: 19px;
+    height: 19px;
+    background-color: #f16d7f;
+    color: #fff;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Left form {
+    position: relative;
+    display: flex;
+}
+
+/** -------------------------------------------------------------- **/
+
+.Menu {
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.Menu ul {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.Menu ul li {
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 11px 17px;
+    border-bottom: 3px solid transparent;
+    margin: 0px 5px;
+}
+
+.Menu ul li:hover {
+    border-bottom: 3px solid #f16d7f;
+    color: #f16d7f;
+}
+
+a {
+    color: inherit;
+    font-family: Lato;
+}
+
+/** -------------------------------------------------------------- **/
+
+.Slider {
+    height: 614px;
+    background-color: #e8e8e8;
+}
+
+.Man {
+    height: inherit;
+    background-image: url(../img/man-slider.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Slider-border {
+    height: 92px;
+    border-left: #e76f80 solid 12px;
+
+}
+
+.Slider-text {
+    height: 92px;
+    text-transform: uppercase;
+    position: relative;
+    top: -5px;
+    margin-left: 10px;
+}
+
+.Slider-text h1 {
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    color: #222222;
+    font-family: "Lato - Black";
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Slider-text h2 {
+    /* Text style for "OF LUXERIO" */
+    font-family: "Lato - Black";
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: #222222;
+    /* Text style for "FASHION" */
+}
+
+.Slider-text h2 pink {
+    font-family: "Lato - Black";
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #f16d7f;
+}
+
+/** -------------------------------------------------------------- **/
+
+.Category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Category .Column div:first-child {
+    margin-top: 0px;
+}
+
+.Category-big {
+    background-color: red;
+    width: 560px;
+    height: 542px;
+    margin-top: 24px;
+    position: relative;
+}
+
+.Category-big:hover {
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.46);
+}
+
+.Category-small {
+    background-color: #dadad2;
+    width: 560px;
+    height: 261px;
+    margin-top: 24px;
+    position: relative;
+}
+
+.Category-small:hover {
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.46);
+}
+
+.Category-small img {
+    float: right;
+}
+
+.Category .Label {
+    width: auto;
+    height: 82px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 26px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.Category h3 {
+    color: #222222;
+    font-family: "Lato - Black";
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Category h4 {
+    font-family: "Lato - Black";
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+}
+
+
+
+/** -------------------------------------------------------------- **/
+
+.Product-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.Product-header h4 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.Product-header p {
+    color: #9f9f9f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+}
+
+.Products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.Products .Product {
+    width: 264px;
+    height: 364px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Products .Product > a {
+    width: inherit;
+    height: inherit;
+}
+
+.Products .Product button:hover {
+    background-color: #ef5b70;
+    border-color: transparent;
+}
+
+.Products .Product button:checked {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+/**
+.Products .Product .Photo button > a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+**/
+
+.Products .Product .Info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Products .Product:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.Products .Product h5 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 14px 0px 14px;
+}
+
+.Products .Product pink {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 17px 14px 0px 14px;
+}
+
+.Products .Product .Photo {
+    width: inherit;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #3a3838;
+}
+
+.Products .Product .Photo .Model {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+}
+
+
+.Products .Product .Photo .Model {
+
+    filter: alpha(1%);
+    opacity: 1;
+    /*transition: all 0, 5s ease;*/
+}
+
+.Products .Product:hover .Photo .Model {
+    filter: alpha(0.25);
+    opacity: 0.25;
+    /*transition: all 0, 5s ease;*/
+}
+
+.Products .Product .Photo button {
+    cursor: pointer;
+}
+
+.Products .Product:hover .Photo button {
+    z-index: 1;
+}
+
+.Products .Product .Photo input {
+    width: 123px;
+    height: 39px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.Products button {
+    width: 123px;
+    height: 39px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Products button img {
+    margin-right: 8px;
+}
+
+/** ----------------------------------------------- **/
+
+.Single-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Single-button button {
+    /* Style for "Rectangle" */
+    width: 212px;
+    height: 48px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    /* Text style for "B, rowse A" */
+    letter-spacing: 0.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    margin-bottom: 115px;
+    border: 0px;
+
+}
+
+.Single-button .Arrow1 {
+    width: 10px;
+    height: 3px;
+    background-color: #fff;
+    margin-left: 9px;
+}
+
+.Single-button .Arrow2 {
+    width: 0px;
+    height: 0px;
+    box-sizing: border-box;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #fff;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+/** ----------------------------------------------- **/
+
+.Feature {
+    height: 529px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 97px;
+}
+
+.Feature .Left {
+    height: inherit;
+    width: 767px;
+    background-color: #222224;
+}
+
+.Feature .Left .Bkg,
+.Feature .Left .Info {
+    position: absolute;
+}
+
+.Feature .Left .Info {}
+
+.Feature .Right {
+    height: inherit;
+    width: 373px;
+    background-color: #222224;
+}
+
+.Feature h1 {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 145px;
+    letter-spacing: 1.5px;
+}
+
+.Feature pink {
+    color: #e76f80;
+    font-size: inherit;
+    font-family: Lato;
+    font-weight: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
+}
+
+.Feature h2 {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.Feature .FeatureBox {
+
+    margin: 48px 43px 0px 33px;
+    box-sizing: border-box;
+    height: 116px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Feature .FeatureBox .Info {
+    width: 220px;
+}
+
+.Feature .FeatureBox .Info h3 {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    /* Text style for "Free Deliv" */
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.Feature .FeatureBox .Info p {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "W, orldwid" */
+    letter-spacing: 0.35px;
+}
+
+/** ------------------------------------------------- **/
+
+.ContainerW {
+    margin: 0px auto;
+    max-width: 1600px;
+    min-width: 1140px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.Subscribe {
+    margin: 0px auto;
+    max-width: 1600px;
+    min-width: 1140px;
+    height: 438px;
+    /**background-color: #f1f1f1;**/
+    display: flex;
+    justify-content: center;
+}
+
+.Subscribe .Bkg {
+    filter: alpha(65%);
+    opacity: 0.65;
+
+}
+
+.Subscribe .Sub {
+    width: 1140px;
+    position: absolute;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.Subscribe .VertLine {
+    width: 1px;
+    height: inherit;
+    background: #fff;
+    z-index: 2;
+}
+
+.Subscribe .Left {
+    width: 570px;
+    box-sizing: border-box;
+    height: inherit;
+    font-size: 56px;
+    z-index: 1;
+    display: flex;
+    padding-top: 110px;
+}
+
+.Subscribe .Left > div {
+    margin-right: 28px;
+}
+
+
+
+.Subscribe .Sub .Left p {
+    color: #222224;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    /* Text style for "“, Vestibu" */
+    letter-spacing: 0.4px;
+    width: 386px;
+}
+
+.Subscribe .Sub .Left h3 {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    margin-top: 19px;
+
+}
+
+.Subscribe .Sub .Left h4 {
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    margin-top: 5px;
+}
+
+.SliderRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 41px;
+}
+
+.SliderRect.Active {
+    color: #f16d7f;
+    background-color: #f16d7f;
+}
+
+.SliderRect {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+    margin-left: 1px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.Subscribe .Right {
+    width: 570px;
+    box-sizing: border-box;
+    height: inherit;
+    z-index: 1;
+    padding: 148px 91px 168px 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subscribe .Right h5 {
+    color: #222224;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.Subscribe .Right h6 {
+    color: #222224;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    margin-bottom: 35px;
+}
+
+.Subscribe .Right form {
+    display: flex;
+    flex-direction: row;
+}
+
+.Subscribe .Right form input[type="email"] {
+    width: 282px;
+    height: 46px;
+    box-sizing: border-box;
+    background-color: #e1e1e1;
+    border: 0px;
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 23px 0px 0px 23px;
+}
+
+.Subscribe .Right form input[type="submit"] {
+    width: 104px;
+    height: 46px;
+    box-sizing: border-box;
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+    border: 0px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    cursor: pointer;
+}
+
+
+/** ------------------------------------------------- **/
+
+.FooterMenu {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Col {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.L1 {
+    width: 490px;
+    padding-right: 55px;
+    box-sizing: border-box;
+}
+
+.L2,
+.L3,
+.L4 {
+    width: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.FooterMenu .Col .LogoA {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 427px;
+}
+
+.FooterMenu .Col .LogoA img {
+    margin-right: 5px;
+}
+
+.FooterMenu .Col .LogoA p {
+    color: #3e3e40;
+    font-family: Lato;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.FooterMenu pink {
+    font-size: inherit;
+    font-family: Lato;
+    color: #f16d7f;
+    font-weight: 800;
+    text-transform: inherit;
+    letter-spacing: inherit;
+}
+
+.FooterMenu .Col > p {
+    color: #898989;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    /* Text style for "Objectivel" */
+    letter-spacing: 0.35px;
+    margin-top: 30px;
+    line-height: 24px;
+    display: flex;
+    align-content: center;
+
+}
+
+.FooterMenu .Col .Head {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    margin-top: 14px;
+    margin-bottom: 45px;
+}
+
+.FooterMenu .Col li:first-child {
+    margin-top: 0px;
+
+}
+
+.FooterMenu .Col li {
+    color: #898989;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-top: 30px;
+}
+
+.Col ul li a:hover {
+    color: black;
+    text-shadow: 0 0 1px gray;
+}
+
+/** ---------------------------------------------------------------- **/
+
+.Footer {
+    height: 80px;
+    background-color: #e6e6e6;
+}
+
+.Footer > div {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.Footer .Socials {
+    display: flex;
+}
+
+.Footer p {
+    color: #7a7a7a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "©,  2017" */
+    letter-spacing: 0.4px;
+}
+
+.Footer .Social {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 4px;
+    font-size: 1em;
+    color: #b2b2b2;
+}
+
+
+.Footer .Social:hover {
+    color: white;
+    background-color: #e76f80;
+}
+
+/** ------------------------------------------- **/
+
+.BreadCrumbs {
+    background-color: #f8f3f4;
+    margin: 0px auto;
+    max-width: 1600px;
+    min-width: 1140px;
+}
+
+.BreadCrumbs > div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.BreadCrumbs .Left,
+.BreadCrumbs .Right {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.BreadCrumbs h2 {
+    display: inline-block;
+    color: #f16d7f;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.BreadCrumbs .Right nav ul {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.BreadCrumbs a {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #636363;
+    font-weight: 300;
+    font-weight: 700;
+}
+
+.BreadCrumbs li::before {
+    content: " / ";
+    white-space: pre;
+}
+
+.BreadCrumbs li:first-child {
+    color: transparent;
+}
+
+.BreadCrumbs ul li a:hover,
+.BreadCrumbs ul li a.Active {
+    color: #f16d7f;
+}
+
+/****************************************************************************/
+
+.BuyChain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 93px;
+}
+
+.BuyChain .Stage {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.BuyChain .Stage:first-child {
+    padding-top: 89px;
+}
+
+.BuyChain .Stage > div {
+    display: none;
+}
+
+.BuyChain .Active > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.BuyChain .Stage h3 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.BuyChain .Stage1 .Forms {
+    display: flex;
+    flex-direction: row;
+}
+
+.BuyChain .Stage1 .Forms .Left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.BuyChain .Stage1 .Forms .Right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.BuyChain .Stage1 h4 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 33px;
+}
+
+.BuyChain .Stage1 h4:first-child {
+    margin-top: 39px;
+}
+
+.BuyChain .Stage1 h5 {
+    color: #b3b2b2;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.BuyChain .Stage1 .Left .Formb {
+    display: flex;
+    flex-direction: column;
+}
+
+.BuyChain .Stage1 .Left .Formb .Radio1 {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.BuyChain .Stage1 .Left .Formb .Radio2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.BuyChain .Stage1 .Left .Formb label {
+    color: #222222;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    top: 2px;
+}
+
+.BuyChain .Stage1 .Left .Formb input[type="submit"] {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin-top: 38px;
+    margin-bottom: 46px;
+    box-sizing: border-box;
+}
+
+.BuyChain .Stage1 .Right h6 {
+    margin-top: 16px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.BuyChain .Stage1 .Right .Req::after {
+    content: "*";
+    white-space: pre;
+    color: red;
+}
+
+.Red,
+red {
+    color: #ff0d0d;
+}
+
+.F13 {
+    font-family: Lato;
+    font-size: 13px;
+}
+
+.BuyChain .Stage1 .Right p {
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 22px;
+    box-sizing: border-box;
+}
+
+.BuyChain .Stage1 .Right span {
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 32px;
+}
+
+.BuyChain .Stage1 .Right a:hover {
+    text-shadow: 0 0 1px gray;
+}
+
+.BuyChain .Stage1 .Right input[type="email"],
+.BuyChain .Stage1 .Right input[type="password"] {
+    width: 390px;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin-top: 16px;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 15px;
+}
+
+.BuyChain .Stage1 .Right input[type="submit"] {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.BuyChain .Stage1 input[type="radio"] {
+    display: none;
+}
+
+.BuyChain .Stage1 input[type="radio"] + label:before {
+    content: " ";
+    white-space: pre;
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0px 5px 0px 0px;
+    position: relative;
+    top: -2px;
+}
+
+.BuyChain .Stage1 input[type="radio"]:checked + label:before {
+    content: "\26AB";
+}
+
+
+/***************************** Cart *****************************************/
+
+.Cart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.Cart .Head {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+
+.Cart .RowProduct {
+    display: flex;
+    flex-direction: row;
+    padding: 22px 0px 25px 0px;
+    border-bottom: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+
+.Cart .RowProduct:hover {
+    background-color: #fcfcfc;
+}
+
+.Cart .Left {
+    padding-left: 20px;
+    height: 115px;
+}
+
+.Cart .Right {
+    margin-left: 21px;
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+}
+
+.Cart .Right .Parameters {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 80px;
+
+}
+
+.Cart h2 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Cart .RowProduct h3 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.Cart .Detail,
+.Cart .Detail a {
+    width: 510px;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Cart .UnitPrice {
+    width: 71px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-right: 95px;
+}
+
+.Cart .Quantity {
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.Cart .Shipping {
+    width: 67px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.Cart .Price {
+    width: 65px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.Cart .Action {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+
+.Cart .RowProduct div.Parameter {
+    display: flex;
+    padding: 3px 0px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 5px 30px 5px 0px;
+    width: 150px;
+}
+
+.Cart .RowProduct p.Name {
+    font-family: Lato;
+    color: #575757;
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-flex;
+}
+
+.Cart .RowProduct p.Name::after {
+    content: ":";
+}
+
+.Cart .RowProduct p.Value {
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.Cart .RowProduct .Detail p.Value {
+    padding-left: 5px;
+}
+
+.Cart .RowProduct .Detail a img {
+    width: 100px;
+    height: 115px;
+    background-color: #fff;
+}
+
+.Cart input[type="text"] {
+    width: 54px;
+    height: 30px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #656565;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.Cart .ClearBtn {
+    background-color: #fff;
+    color: #c0c0c0;
+    border: 0px solid transparent;
+    font-size: 14px;
+    padding: 0;
+}
+
+.Cart .ClearBtn:hover {
+    color: red;
+    outline: 0px solid transparent;
+}
+
+button,
+button:active,
+button:focus {
+    outline: 0 !important;
+    border: 0px;
+
+}
+
+/*********************************************************************/
+
+.OrderButtons {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    margin: 44px 0px;
+}
+
+.OrderButtons button:first-child {
+    width: 235px;
+}
+
+.OrderButtons button {
+    height: 50px;
+    width: 225px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.OrderPanel {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.OrderPanel .Block {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.OrderPanel .Block form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.OrderPanel .Block form input {
+    width: 355px;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+}
+
+/**** цвет для placeholder ***/
+
+input::-webkit-input-placeholder {
+    color: #b1b1b1;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+input::-moz-placeholder {
+    color: #b1b1b1;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 300;
+    border: transparent;
+}
+
+.OrderPanel .B1 .Triangle {
+    position: absolute;
+    left: 333px;
+    top: 40px;
+    border-top-color: #bdbdbd;
+    z-index: 900;
+}
+
+.OrderPanel .B1 input[type="submit"] {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+    text-align: center;
+}
+
+.OrderPanel .B2 input[type="submit"] {
+    width: 118px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+    text-align: center;
+}
+
+.OrderPanel .B2 label {
+    margin-top: 28px;
+    margin-bottom: 4px;
+    color: #000000;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.S11-400 {
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.S13-300 {
+    color: #b1b1b1;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.S16-700 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+price:before {
+    content: "      ";
+    white-space: pre;
+
+}
+
+.B3 {
+    width: 360px;
+    height: 214px;
+    padding: 40px 43px 42px 44px;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    box-sizing: border-box;
+    background-color: #f5f3f3;
+}
+
+.B3 p:first-child {
+    margin-bottom: 14px;
+}
+
+.B3 .Line {
+    width: 273px;
+    height: 1px;
+    background-color: #e2e2e2;
+    margin: 22px 0px 17px;
+}
+
+.Cart .Checkout {
+    position: absolute;
+    width: 273px;
+    height: 50px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    top: 803px;
+    left: 834px;
+    z-index: 900;
+}
+
+.Cart .B3 .Checkout {
+    position: static;
+    z-index: -999;
+}
+
+/***********************************************************************/
+
+.SingleProduct {
+    margin-bottom: 73px;
+}
+
+.SingleProduct .ProductSlider {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f7f7f7;
+    border: 1px solid #eaeaea;
+    padding-top: 10px;
+    padding-bottom: 83px;
+    box-sizing: border-box;
+}
+
+.SingleProduct .ProductSlider .Btn {
+    width: 47px;
+    height: 47px;
+    background-color: lightgrey;
+    color: #fff;
+    text-align: center;
+    line-height: 47px;
+    font-size: 18px;
+
+}
+
+.SingleProduct .ProductInfo {
+    padding: 73px 249px 122px 249px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    top: -86px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.SingleProduct p {
+    color: #5e5e5e;
+    font-family: Lato;
+}
+
+.S18-400 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.S14-700 {
+    color: #2f2f2f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.S14-300 {
+    color: #5e5e5e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.S24-700 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Pink {
+    color: #ef5b70;
+    !important
+}
+
+grey {
+    color: #b9b9b9;
+}
+
+.SingleProduct .PinkBorderBtn {
+    width: 537px;
+    height: 55px;
+}
+
+
+.PinkBorderBtn {
+    border: 1px solid #ef5b70;
+    background-color: transparent;
+    padding-left: 40px;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.AddtoCart:hover {
+    background-color: #ef5b70;
+    color: white;
+    border-color: transparent;
+}
+
+
+.SingleProduct .Line {
+    width: 642px;
+    height: 1px;
+    border: 0px solid #eaeaea;
+    background-color: #eaeaea;
+    margin: 43px 0px 63px 0px;
+}
+
+.SingleProduct .ProductInfo form {
+    margin: 0px 53px;
+}
+
+.Row {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.Column {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.SingleProduct .ProductInfo form .Row {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.SingleProduct .ProductInfo form .Column input {
+    width: 144px;
+    height: 35px;
+    margin: 16px 0px 28px 0px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 15px;
+    box-sizing: border-box;
+}
+
+.MT18 {
+    margin-top: 18px;
+}
+
+.MT67 {
+    margin-top: 67px;
+}
+
+.MT28 {
+    margin-top: 28px;
+}
+
+.SingleProduct .ProductInfo .MT67 {
+    text-align: center;
+}
+
+.SingleProduct .ProductInfo .MT28 span {
+    text-align: center;
+    padding: 0px 22px;
+}
+
+.MT37 {
+    margin-top: 37px;
+}
+
+.SeeAlso {
+    color: #4d4d4d;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 72px;
+}
+
+/******************ВЫБОР ЦВЕТА ТОВАРА***********************/
+
+.Color {
+    position: relative;
+}
+
+.Selector {
+    width: 150px;
+    position: relative;
+}
+
+.Selector i {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    background: #fff;
+    font-size: 14px;
+
+}
+
+.Color > .Selector {
+    width: 144px;
+    height: 35px;
+    margin: 16px 0px 28px 0px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-flex;
+}
+
+.Color .SelectorMenu .SelectorValue {
+    width: 144px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-flex;
+}
+
+.Color .Selector input {
+    display: none;
+}
+
+.Color .Selector .ColorBkg {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left: -8px;
+}
+
+.SelectorMenu {
+    width: 144px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 35px;
+    left: -1px;
+    display: none;
+}
+
+.Color .Selector:hover {
+    box-shadow: 0px 0px 3px rgba(0, 0, 255, 0.70);
+}
+
+.Color .Selector:hover .SelectorMenu {
+    display: inline;
+}
+
+.Color .Selector .SelectorMenu .SelectorValue:hover {
+    box-shadow: 0px 0px 3px rgba(150, 150, 150, 0.70);
+}
+
+/********************ВЫБОР РАЗМЕРА***************/
+
+.Size {
+    position: relative;
+}
+
+.Size i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background: #fff;
+    font-size: 14px;
+    z-index: 100;
+    color: #bcbcbc;
+}
+
+.Size select {
+    width: 144px;
+    height: 35px;
+    margin: 16px 0px 28px 0px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+
+.Size select:focus {
+    box-shadow: 0px 0px 3px rgba(0, 0, 255, 0.70);
+    border-color: #eaeaea;
+    outline: #eaeaea;
+}
+
+
+/***********************Страница каталога товаров******************/
+
+.CatalogPage {
+    margin-top: 60px;
+}
+
+.CatalogPage > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.CatalogPage .LeftMenu {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: auto;
+    margin-right: 30px
+}
+
+.CatalogPage .LeftMenu details summary {
+    width: 243px;
+    border-bottom: 1px solid #ebebeb;
+    height: 37px;
+    border-left: 5px solid #ef5b70;
+    margin-top: 17px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    line-height: 37px;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: -1px;
+    align-self: center;
+    text-align: left;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.CatalogPage .LeftMenu details summary .Triangle {
+    border-top-color: #ef5b70;
+    ;
+
+}
+
+.CatalogPage .LeftMenu details nav ul {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.CatalogPage .LeftMenu details nav ul li {
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 11px 22px;
+}
+
+.ContainerW .Features {
+    height: 341px;
+    background-color: #222224;
+}
+
+.Features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: #222224;
+}
+
+
+
+.RowFeatures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 341px;
+}
+
+.Features .RowFeatures .FeatureBox {
+    width: 309px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0px 10px 30px 10px;
+}
+
+.Features .RowFeatures .FeatureBox h3 {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 17px;
+}
+
+.Features .RowFeatures .FeatureBox p {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23.95px;
+}
+
+.CatalogPage .Catalog {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.CatalogPage .Catalog .ProductsPage {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.Catalog .ProductsPage .Product {
+    margin-left: 18px;
+}
+
+.ProductsPage {
+    width: 846px;
+    height: auto;
+}
+
+.Catalog .Pages {
+    width: inherit;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.Catalog .Pages .PagesBlock ul {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ebebeb;
+    width: 261px;
+    height: 44px;
+    margin-bottom: 110px;
+    color: #c4c4c4;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 44px;
+    padding: 0px 8px;
+}
+
+.Catalog .Pages .PagesBlock ul li {
+    padding: 0px 8px;
+}
+
+.Catalog .Pages .PagesBlock ul li:hover,
+.Catalog .Pages .PagesBlock ul li.Active {
+    color: #f16d7f;
+}
+
+.Catalog .Pages .PagesBlock #noactive {
+    color: #c4c4c4;
+}
+
+.Catalog .PinkBorderBtn {
+    width: 150px;
+    height: 44px;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.Catalog {
+    height: auto;
+    margin-top: 10px;
+}
+
+.Catalog .Filters {
+    height: auto;
+}
+
+.Catalog .Filters .Column {
+    height: auto;
+    width: 280px;
+    margin-bottom: 40px;
+}
+
+.Catalog .Filters .Trending ul {
+    height: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 176px;
+    height: auto;
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px
+}
+
+
+
+.Catalog .Filters .Trending ul li {
+    height: 20px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    border-left: 1px solid #dfdfdf;
+}
+
+.Catalog .Filters .Trending ul li:first-child {
+    border-left: 1px solid transparent;
+    padding-left: 0px;
+}
+
+.Catalog .Filters .Trending ul li:last-child {
+    border-right: 1px solid transparent;
+    padding-right: 0px;
+}
+
+.Catalog .Filters .Trending:last-child {
+    margin-bottom: 0px;
+}
+
+.Catalog .SelectorFilters {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background-color: #f3f3f3;
+    margin-left: 18px;
+    padding-left: 9px;
+    margin-bottom: 48px;
+}
+
+.Catalog .SelectorFilters .WhiteLabel {
+    display: block;
+    height: 30px;
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 13px;
+    box-sizing: border-box;
+}
+
+.Catalog .SelectorFilters select {
+    margin-right: 10px;
+    position: relative;
+    left: -1px;
+}
+
+.Catalog .Filters h2 {
+    color: #6f6e6e;
+    margin-bottom: 25px;
+}
+
+.Catalog ul li:hover {
+    color: #f16d7f;
+}
+
+.Catalog .Row {
+    flex-wrap: wrap;
+}
+
+.Catalog .Size .Checkbox {
+    width: 58px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Catalog .Size .Checkbox {
+    color: #6f6e6e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    outline-color: transparent;
+}

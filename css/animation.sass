@@ -1,0 +1,180 @@
+$usual-effect-time: 0.3s
+$usual-scale: 1.2
+
+input,
+button,
+div,
+i
+  transition: all $usual-effect-time/1.5
+
+a
+  transition: all $usual-effect-time/1.5
+
+@-webkit-keyframes heartbeat
+  from
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    -webkit-transform-origin: center
+  center
+    transform-origin: center center
+    -webkit-animation-timing-function: ease-out
+    animation-timing-function: ease-out
+  30%
+    -webkit-transform: scale(1.1)
+    transform: scale(1.1)
+    -webkit-animation-timing-function: ease-in
+    animation-timing-function: ease-in
+  50%
+    -webkit-transform: scale(1.3)
+    transform: scale(1.2)
+    -webkit-animation-timing-function: ease-out
+    animation-timing-function: ease-out
+  100%
+    -webkit-transform: scale($usual-scale)
+    transform: scale(1.1)
+    -webkit-animation-timing-function: ease-in
+    animation-timing-function: ease-in
+
+.CleatBtn
+  -webkit-animation: heartbeat $usual-effect-time ease-in-out both
+  animation: heartbeat $usual-effect-time ease-in-out both
+
+.ClearBtn:hover
+  -webkit-animation: heartbeat $usual-effect-time ease-in-out both
+  animation: heartbeat $usual-effect-time ease-in-out both
+  transform: scale($usual-scale)
+
+.Basket:hover > a > .BasketSvg
+  transform: scale($usual-scale)
+  transition: transform $usual-effect-time
+
+.Basket > a > .Basket__Count
+  transition: transform $usual-effect-time
+
+.Basket:hover > a > .Basket__Count
+  transform: translate(-13px,-13px)
+  transition: transform $usual-effect-time
+
+.Basket:active > a > .Basket__Count
+  transform: translate(-13px,0px)
+  transition: transform $usual-effect-time
+
+/**********************************************************************************************/
+
+.Swing-in-top-fwd
+  -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both
+
+@-webkit-keyframes swing-in-top-fwd 
+  0%
+    -webkit-transform: rotateX(-100deg)
+    transform: rotateX(-100deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 0
+
+  100%
+    -webkit-transform: rotateX(0deg)
+    transform: rotateX(0deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 1
+
+
+@keyframes swing-in-top-fwd 
+  0%
+    -webkit-transform: rotateX(-100deg)
+    transform: rotateX(-100deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 0
+
+  100%
+    -webkit-transform: rotateX(0deg)
+    transform: rotateX(0deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 1
+
+/*************************************************************************************************/
+
+.Fade-in
+  -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+
+@-webkit-keyframes fade-in
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@keyframes fade-in
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+/***************************************************************************************/
+
+.Product
+  transition: box-shadow $usual-effect-time
+
+.Product button
+  transition: background $usual-effect-time
+
+.Product .Product__Image,
+.Product .Photo .Model
+  transition: all $usual-effect-time
+
+.SingleProduct .ProductSlider .Btn:hover
+  transform: rotate(360deg) scale(1.2)
+  transition: transform $usual-effect-time*2
+
+/****************************************************************************************/
+
+.Swing-in-top-fwd2
+  -webkit-animation: swing-in-top-fwd2 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both
+  animation: swing-in-top-fwd2 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both
+
+@-webkit-keyframes swing-in-top-fwd2
+  0%
+    -webkit-transform: rotateX(-100deg)
+    transform: rotateX(-100deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 0
+
+  100%
+    -webkit-transform: rotateX(0deg)
+    transform: rotateX(0deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 1
+
+
+@keyframes swing-in-top-fwd2
+  0%
+    -webkit-transform: rotateX(-100deg)
+    transform: rotateX(-100deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 0
+
+  100%
+    -webkit-transform: rotateX(0deg)
+    transform: rotateX(0deg)
+    -webkit-transform-origin: top
+    transform-origin: top
+    opacity: 1
+
+.Social
+  transition: color $usual-effect-time
+  transition: background-color $usual-effect-time
+
+
+
+
+

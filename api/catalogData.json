@@ -1,0 +1,89 @@
+{
+  "result":1,
+  "page_number": 1,
+  "total_pages":20,
+  "products": [
+    {
+      "id": 43,
+      "name": "Mango People T-shirt-",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "руб.",
+      "img_URL": "img/product43.png",
+      "img_alt": "product43"
+    },
+    {
+      "id": 44,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product44.png",
+      "img_alt": "product44"
+    },
+    {
+      "id": 3,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product3.jpg",
+      "img_alt": "product44"
+    },
+    {
+      "id": 45,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product45.png",
+      "img_alt": "product44"
+    },
+    {
+      "id": 46,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product46.png",
+      "img_alt": "product44"
+    },
+    {
+      "id": 47,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product47.png",
+      "img_alt": "product44"
+    },
+    {
+      "id": 48,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product48.png",
+      "img_alt": "product44"
+    },
+    {
+      "id": 49,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product49.png",
+      "img_alt": "product44"
+    },
+    {
+      "id": 50,
+      "name": "Mango People T-shirt",
+      "product_page_URL": "product.html",
+      "price": 52,
+      "currency": "$",
+      "img_URL": "img/product50.png",
+      "img_alt": "product44"
+    }
+  ],
+  "errorMessage" : "Сообщение об ошибке"
+}
