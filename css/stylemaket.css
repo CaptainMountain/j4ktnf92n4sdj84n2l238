@@ -2736,9 +2736,9 @@ padding:5px;
 }
 #slide_in {
 position: fixed;
-min-height:200px;
-top: 332px;
-left: -250px;
+min-height:440px;
+top: 150px;
+left: -300px;
 -webkit-transition-duration: 0.3s;
 -moz-transition-duration: 0.3s;
 -o-transition-duration: 0.3s;
@@ -2746,12 +2746,13 @@ transition-duration: 0.3s;
 box-shadow:0 0 5px #777;
 background: #f60;
 color:#fff;
-width:250px;
+width:300px;
 padding:10px;
 box-sizing:padding-box;
+border-radius: 5px; 
 }
 #slide_lft:hover {
-left: 250px;
+left: 300px;
 }
 #slide_lft:hover #slide_in {
 left: 0;

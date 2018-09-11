@@ -6,6 +6,7 @@
     <title>Монолит</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/stylemaket.css">
+    
     <link rel="stylesheet" type="text/css" href="css/animation.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,800,900" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -20,6 +21,8 @@
     <script src="js/slider.js"></script>
     <script src="js/basket.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/preloader.js"></script>
+    
     <!-- endbuild -->
     <script src="js/init.js"></script>
      <link rel="shortcut icon" href="../app/img/favicon.ico" type="image/x-icon">
@@ -27,6 +30,11 @@
 </head>
 
 <body>
+
+
+
+
+
 <header class="Header">
     <div class="Container HeaderFlex">
         <div class="Left">
@@ -269,7 +277,9 @@ function showDivs(n) {
         <div class="top-panel">
              
             <div class="mapmap">
-               <iframe src="https://yandex.ru/map-widget/v1/-/CBBMnWq02D"  frameborder="1" allowfullscreen="true"></iframe>
+               <iframe src="https://yandex.ru/map-widget/v1/-/CBBmNOQAdA"  frameborder="1" allowfullscreen="true"></iframe>
+
+
                 
             </div>
         </div>
@@ -280,7 +290,24 @@ function showDivs(n) {
 <div id="slide_lft">
   Как купить?
   <div id="slide_in">
-    Сюда код формы или другой информации, которую хотите разместить.
+    <form style="text-align: center;" name="test" method="post" action="input1.php">
+
+<h6 style="text-align: center;">Заполните форму заказа под каждым из товаров или закажите обратный звонок в этой форме и мы перезвоним</h6>
+
+  <p><b>Ваше имя:</b><br>
+   <input type="text" name="name" >
+  </p>
+ 
+  <p>Телефон:<Br>
+    <input type="tel" name="tel"><br> <br>
+     <p>Сообщение:</p>
+<textarea name="textarea" id="22" cols="20" rows="5"></textarea>
+    <br> <br>
+
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+ </form>
+
   </div>
 </div>
 
@@ -773,4 +800,7 @@ function showDivs(n) {
     </div>
 </footer>
 </body>
+
+
+
 </html>
