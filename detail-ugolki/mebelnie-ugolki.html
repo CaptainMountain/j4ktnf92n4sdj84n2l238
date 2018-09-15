@@ -15,6 +15,7 @@
     <script src="../node_modules/jquery.cookie/jquery.cookie.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/init.js"></script>
+    <script src="../js/table-switcher.js"></script>
     <script>
         "use strict";
         $(document).ready(function () {
@@ -289,20 +290,55 @@
                 </div>
             </div>
             <div id="CatalogPage" class="ProductsPage">
-                <article class="Product">
+                
+
+
+
+
+
+  <div class="w3-bar">
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol1')"><article class="Product">
                     <a class="Product__Link">
                         <div class="imgwow1">
                             <img class="Productwow" width: inherit; height: 280px; src="../img/details/f1-1.jpg" alt="product43">
                             
                         </div>
                         <div class="Product__Info">
-                            <h2 class="Product__Name">Мебельный уголок</h2>
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> KW</h2>
                             <span class="Product__Price Color_pink">есть в наличии</span>
                         </div>
                     </a>
                 </article>
-                
-                <table id="tablecss" class="w3-table-all w3-hoverable">
+                </button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol2')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/f1-2.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> KS</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol3')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/f1-3.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> NA</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+</div>
+
+
+<div id="ugol1" class="city">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
 
     
     <tr class="w3-light-grey" >
@@ -320,192 +356,78 @@
         <td>вес упаковки,<br> кг</td>
         <td>Спец.</td>
     </tr>
-    <tr>
-        <td>KUL-40x80</td>
-        <td>40</td>
-        <td>80</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,072</td>
-        <td>3,60</td>
-        <td>5,50</td>
-    </tr>
-    <tr>
-        <td>KUL-40x100</td>
-        <td>40</td>
-        <td>100</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,084</td>
-        <td>4,20</td>
-        <td>7,30</td>
-    </tr>
-    <tr>
-        <td>KUL-40x120</td>
-        <td>40</td>
-        <td>120</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,096</td>
-        <td>4,80</td>
-        <td>7,40</td>
-    </tr>
-    <tr>
-        <td>KUL-40x140</td>
-        <td>40</td>
-        <td>140</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,108</td>
-        <td>5,40</td>
-        <td>8,20</td>
-    </tr>
-    <tr>
-        <td>KUL-40x160</td>
-        <td>40</td>
-        <td>160</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,120</td>
-        <td>6,0</td>
-        <td>9,90</td>
-    </tr>
-    <tr>
-        <td>KUL-40x200</td>
-        <td>40</td>
-        <td>200</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,144</td>
-        <td>7,20</td>
-        <td>10,80</td>
-    </tr>
-    <tr>
-        <td>KUL-40x320</td>
-        <td>40</td>
-        <td>320</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>25</td>
-        <td>0,216</td>
-        <td>5,40</td>
-        <td>17,30</td>
-    </tr>
-    <tr>
-        <td>KUL-40x400</td>
-        <td>40</td>
-        <td>400</td>
-        <td>40</td>
-        <td>2,0</td>
-        <td>25</td>
-        <td>0,250</td>
-        <td>6,25</td>
-        <td>21,80</td>
-    </tr>
-    <tr>
-        <td>KUL-80x80</td>
-        <td>40</td>
-        <td>80</td>
-        <td>80</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,144</td>
-        <td>7,20</td>
-        <td>10,90</td>
-    </tr>
-    <tr>
-        <td>KUL-80x100</td>
-        <td>40</td>
-        <td>100</td>
-        <td>80</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,168</td>
-        <td>8,40</td>
-        <td>12,50</td>
-    </tr>
-    <tr>
-        <td>KUL-80x120</td>
-        <td>40</td>
-        <td>120</td>
-        <td>80</td>
-        <td>2,0</td>
-        <td>50</td>
-        <td>0,192</td>
-        <td>9,60</td>
-        <td>15,10</td>
-    </tr>
-    <tr>
-        <td>KUL-80x200</td>
-        <td>40</td>
-        <td>200</td>
-        <td>80</td>
-        <td>2,0</td>
-        <td>25</td>
-        <td>0,288</td>
-        <td>7,20</td>
-        <td>21,80</td>
-    </tr>
-    <tr>
-        <td>KUL-80x240</td>
-        <td>40</td>
-        <td>240</td>
-        <td>80</td>
-        <td>2,0</td>
-        <td>25</td>
-        <td>0,300</td>
-        <td>7,50</td>
-        <td>24,00</td>
-    </tr>
-    <tr>
-        <td>KUL-40x280</td>
-        <td>40</td>
-        <td>280</td>
-        <td>80</td>
-        <td>2,0</td>
-        <td>25</td>
-        <td>0,384</td>
-        <td>9,60</td>
-        <td>28,80</td>
-    </tr>
-    <tr>
-        <td>KUL-80x320</td>
-        <td>40</td>
-        <td>320</td>
-        <td>80</td>
-        <td>2,0</td>
-        <td>20</td>
-        <td>0,432</td>
-        <td>8,64</td>
-        <td>31,00</td>
-    </tr>
 
-    
+    <tr>
+        <td>KW1-25x17</td>
+        <td>25</td>
+        <td>25</td>
+        <td>17</td>
+        <td>2,0</td>
+        <td>50</td>
+        <td>0,100</td>
+        <td>0,50</td>
+        <td>2,4</td>
+    </tr>
+    <tr>
+        <td>KW2-40x17</td>
+        <td>40</td>
+        <td>40</td>
+        <td>17</td>
+        <td>2,0</td>
+        <td>50</td>
+        <td>0,017</td>
+        <td>0,87</td>
+        <td>3,60</td>
+    </tr>
+    <tr>
+        <td>KW3-50x17</td>
+        <td>50</td>
+        <td>50</td>
+        <td>17</td>
+        <td>2,0</td>
+        <td>50</td>
+        <td>0,022</td>
+        <td>1,11</td>
+        <td>4,15</td>
+    </tr>
+    <tr>
+        <td>KW4-75x18</td>
+        <td>75</td>
+        <td>75</td>
+        <td>18</td>
+        <td>2,0</td>
+        <td>50</td>
+        <td>0,034</td>
+        <td>1,73</td>
+        <td>5,00</td>
+    </tr>
+    <tr>
+        <td>KW5-100x20</td>
+        <td>100</td>
+        <td>100</td>
+        <td>20</td>
+        <td>2,0</td>
+        <td>50</td>
+        <td>0,052</td>
+        <td>2,58</td>
+        <td>7,15</td>
+    </tr>
+    <tr>
+        <td>KW6-125x20</td>
+        <td>125</td>
+        <td>125</td>
+        <td>20</td>
+        <td>2,0</td>
+        <td>50</td>
+        <td>0,066</td>
+        <td>3,31</td>
+        <td>10,00</td>
+    </tr>
   </table>
-  
-               
 </div>
-       <br><br>     
-    <article class="Product">
-                    <a class="Product__Link">
-                        <div class="imgwow1">
-                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/f1-2.jpg" alt="product43">
-                            
-                        </div>
-                        <div class="Product__Info">
-                            <h2 class="Product__Name">Мебельный уголок</h2>
-                            <span class="Product__Price Color_pink">есть в наличии</span>
-                        </div>
-                    </a>
-                </article>
-                
-                <table id="tablecss" class="w3-table-all w3-hoverable">
+
+<div id="ugol2" class="city" style="display:none">
+    <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
 
     
     <tr class="w3-light-grey" >
@@ -647,22 +569,10 @@
     
   </table>
 
-<br><br>
+</div>
 
-  <article class="Product">
-                    <a class="Product__Link">
-                        <div class="imgwow1">
-                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/f1-3.jpg" alt="product43">
-                            
-                        </div>
-                        <div class="Product__Info">
-                            <h2 class="Product__Name">Мебельный уголок</h2>
-                            <span class="Product__Price Color_pink">есть в наличии</span>
-                        </div>
-                    </a>
-                </article>
-                
-     <table id="tablecss" class="w3-table-all w3-hoverable">
+<div id="ugol3" class="city" style="display:none">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
 
     
     <tr class="w3-light-grey" >
@@ -726,6 +636,464 @@
     </tr>
     
   </table>
+</div>
+
+
+
+
+<div class="w3-bar">
+    <br><br>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol4')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u12.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 18х18х18х1,8</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article>
+                </button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol5')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u13.png" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 20х20х16х1,2</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol6')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u14.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 22х22х15х1,2</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+</div>
+
+
+<div id="ugol4" class="city">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+<tr>
+        <td>18x18x18x1,8</td>
+        <td>18</td>
+        <td>18</td>
+        <td>18</td>
+        <td>1,80</td>
+        <td>1000</td>
+        <td></td>
+        <td></td>
+        <td>2,20</td>
+    </tr>
+   
+  </table>
+</div>
+
+<div id="ugol5" class="city" style="display:none">
+    <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+   <tr>
+        <td>20x20x16x1,2</td>
+        <td>20</td>
+        <td>20</td>
+        <td>16</td>
+        <td>1,20</td>
+        <td>1000</td>
+        <td></td>
+        <td></td>
+        <td>1,70</td>
+    </tr>
+    
+  </table>
+
+</div>
+
+<div id="ugol6" class="city" style="display:none">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+    
+     <tr>
+        <td>22x22x15x1,2</td>
+        <td>22</td>
+        <td>22</td>
+        <td>15</td>
+        <td>1,20</td>
+        <td>1000</td>
+        <td></td>
+        <td></td>
+        <td>1,70</td>
+    </tr>
+    <tr>
+        <td>25x25x15x2,0</td>
+        <td>25</td>
+        <td>25</td>
+        <td>15</td>
+        <td>2,00</td>
+        <td>800</td>
+        <td></td>
+        <td></td>
+        <td>2,55</td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+<div class="w3-bar">
+    <br><br>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol7')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u15.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 22x22x40x2,0</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article>
+                </button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol8')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u16.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 25x25x28x1,2</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol9')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u17.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 26x26x30x1,2</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+</div>
+
+
+<div id="ugol7" class="city">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+<tr>
+        <td>22x22x40x2,0</td>
+        <td>22</td>
+        <td>22</td>
+        <td>40</td>
+        <td>2,00</td>
+        <td>300</td>
+        <td></td>
+        <td></td>
+        <td>4,70</td>
+    </tr>
+   
+  </table>
+</div>
+
+<div id="ugol8" class="city" style="display:none">
+    <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+   <tr>
+        <td>25x25x28x1,2</td>
+        <td>25</td>
+        <td>25</td>
+        <td>28</td>
+        <td>1,20</td>
+        <td>800</td>
+        <td></td>
+        <td></td>
+        <td>3,05</td>
+    </tr>
+    
+  </table>
+
+</div>
+
+<div id="ugol9" class="city" style="display:none">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+    
+   <tr>
+        <td>26x26x30x1,2</td>
+        <td>26</td>
+        <td>26</td>
+        <td>30</td>
+        <td>1,20</td>
+        <td>800</td>
+        <td></td>
+        <td></td>
+        <td>3,40</td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+<div class="w3-bar">
+    <br><br>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol10')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u18.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 28x28x23x2,0</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article>
+                </button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol11')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u19.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 28x28x25x1,0</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('ugol12')"><article class="Product">
+                    <a class="Product__Link">
+                        <div class="imgwow1">
+                            <img class="Productwow" width: inherit; height: 280px; src="../img/details/u20.jpg" alt="product43">
+                            
+                        </div>
+                        <div class="Product__Info">
+                            <h2 class="Product__Name"><dfn>артикул:</dfn> 28x28x30x1,0</h2>
+                            <span class="Product__Price Color_pink">есть в наличии</span>
+                        </div>
+                    </a>
+                </article></button>
+</div>
+
+
+<div id="ugol10" class="city">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+<tr>
+        <td>28x28x23x2,0</td>
+        <td>28</td>
+        <td>28</td>
+        <td>23</td>
+        <td>2,0</td>
+        <td>500</td>
+        <td></td>
+        <td></td>
+        <td>3,40</td>
+    </tr>
+   
+  </table>
+</div>
+
+<div id="ugol11" class="city" style="display:none">
+    <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+  <tr>
+        <td>28x28x25x1,0</td>
+        <td>28</td>
+        <td>28</td>
+        <td>25</td>
+        <td>1,20</td>
+        <td>700</td>
+        <td></td>
+        <td></td>
+        <td>2,95</td>
+    </tr>
+    
+  </table>
+
+</div>
+
+<div id="ugol12" class="city" style="display:none">
+   <table id="tablecss" class="w3-table-all w3-animate-opacity w3-hoverable">
+
+    
+    <tr class="w3-light-grey" >
+        <td rowspan="2">Артикул</td>
+        <td align="center" colspan="7">Характеристики изделия</td>
+        <td>Цена</td>
+    </tr>
+    <tr class="w3-light-grey">
+        <td>длина,<br>мм</td>
+        <td>высота,<br>мм</td>
+        <td>ширина,<br>мм</td>
+        <td>толщина,<br>мм</td>
+        <td>штук в<br>упаковке</td>
+        <td>вес штуки,<br>кг</td>
+        <td>вес упаковки,<br> кг</td>
+        <td>Спец.</td>
+    </tr>
+    
+<tr>
+        <td>28x28x30x1,0</td>
+        <td>28</td>
+        <td>28</td>
+        <td>30</td>
+        <td>1,00</td>
+        <td>500</td>
+        <td></td>
+        <td></td>
+        <td>3,15</td>
+    </tr>
+  </table>
+</div>
+
                
 </div>
 
@@ -736,6 +1104,16 @@
         </div>
     </div>
 </div>
+
+               
+
+
+
+
+
+
+
+
 
 <div class="Features ContainerW">
     <div class="Container RowFeatures">

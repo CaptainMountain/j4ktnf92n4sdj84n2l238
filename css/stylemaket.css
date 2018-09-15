@@ -763,8 +763,8 @@ a {
 .Product {
 
   align-content: center;
-  width: 264px;
-  height: 364px;
+  width: 250px;
+  height: 350px;
   background-color: #fff;
   margin-bottom: 40px;
   display: flex;
@@ -776,7 +776,7 @@ a {
     position: relative; }
   .Product__Photo {
     width: inherit;
-    height: 280px;
+    height: 260px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -799,7 +799,7 @@ a {
     .Productwow{
    
       width: inherit;
-    height: 280px;
+    height: 260px;
     display: flex;
     }
 
@@ -807,7 +807,7 @@ a {
 .imgwow1 {
   overflow:hidden;
     width: inherit;
-    height: 280px;
+    height: 260px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -2756,4 +2756,15 @@ left: 300px;
 }
 #slide_lft:hover #slide_in {
 left: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
