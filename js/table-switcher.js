@@ -7,3 +7,4 @@
    
     document.getElementById(cityName).style.display = "block"; 
 }
+

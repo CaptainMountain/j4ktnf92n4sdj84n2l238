@@ -2757,14 +2757,10 @@ left: 300px;
 #slide_lft:hover #slide_in {
 left: 0;
 
+}
 
 
-
-
-
-
-
-
-
-
+.city {
+ display: none;
+}
 
