@@ -764,7 +764,7 @@ a {
 
   align-content: center;
   width: 250px;
-  height: 350px;
+  height: wrap-content;
   background-color: #fff;
   margin-bottom: 40px;
   display: flex;
