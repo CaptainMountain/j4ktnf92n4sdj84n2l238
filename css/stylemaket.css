@@ -778,10 +778,10 @@ a {
     width: inherit;
     height: 260px;
     display: flex;
+    background-color: #3E3E3E;
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: #3a3838;
     position: relative;
     cursor: pointer; }
   .Product__Info {
