@@ -15,6 +15,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/jquery.cookie/jquery.cookie.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+</script>
     <!--build:js js/main.js -->
     <script src="js/settings.js"></script>
     <script src="js/logon.js"></script>
@@ -23,6 +25,8 @@
     <script src="js/basket.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/upbutton.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
     
     <!-- endbuild -->
     <script src="js/init.js"></script>
@@ -91,6 +95,7 @@
                 </a>
                 
 </header>
+<div id="upbutton"></div>
 <nav class="Menu Container">
     <ul>
          <li><a href="ugolki.html" >Уголки</a>
@@ -246,7 +251,34 @@
 -->
 
 
+<div id="upbutton"></div>
 
+<script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            if ($('#upbutton').is(':hidden')) {
+                $('#upbutton').css({opacity : 1}).fadeIn('slow');
+            }
+        } else { $('#upbutton').stop(true, false).fadeOut('fast'); }
+    });
+    $('#upbutton').click(function() {
+        $('html, body').stop().animate({scrollTop : 0}, 300);
+    });
+</script>
+
+<style>
+  #upbutton {
+    background: url("../app/img/up.png") no-repeat top left;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+</style>
 
 
 
@@ -254,7 +286,7 @@
 
 </div>
 
-<div class="w3-content" style="max-width:100%;box-shadow: 0 0 50px rgba(0,0,0,0.4); background-color: #E0E0E0; ">
+<div class="w3-content" style="max-width:100%; box-shadow: 0 0 50px rgba(0,0,0,0.4); background-color: #E0E0E0; ">
   <img class="mySlides" src="../app/img/slsl.jpg" style="width:100%">
   <img class="mySlides" src="../app/img/slsl2.jpg" style="width:100%">
   <img class="mySlides" src="../app/img/slsl3.jpg" style="width:100%">
@@ -331,11 +363,11 @@ function showDivs(n) {
 <hr>
 
   <p><b>Ваше имя:</b><br>
-   <input class="forminp" type="text" name="name" >
+   <input class="forminp" type="text" autocomplete="off" name="name" >
   </p>
  
   <p>Телефон:<Br>
-    <input class="forminp" type="tel" name="tel" ><br> <br>
+    <input class="forminp" type="tel" autocomplete="off" name="tel" ><br> <br>
      <p>Сообщение:</p>
 <textarea class="forminp" name="textarea" id="22" cols="20" rows="5" placeholder="Перезвоните мне"></textarea>
 
@@ -738,19 +770,21 @@ function showDivs(n) {
         <div class="FeatureBox">
             <div><img src="img/feature-pic1.png" alt="feature1"></div>
             <h3>Доставка</h3>
-            <p>Инфо о том, как осуществляется доставка</p>
+            <p>Доставка курьерской службой СДЭК,<br>или другим удобным для вас способом<br>при заполнении формы обратной связи.</p>
         </div>
         <div class="FeatureBox">
             <div class="Pic"><img src="img/feature-pic2.png" alt="feature2"></div>
 <h3>Дисконты/Акции</h3>
-                <p>ИНФО</p>
+                <p>Скидки для постоянных клиентов.</p>
 
         </div>
         <div class="FeatureBox">
             <div class="Pic"><img src="img/feature-pic3.png" alt="feature3"></div>
 
              <h3>Гарантия качества</h3>
-                <p>ИНФО.</p>
+                <p> Высокое качество представленной продукции.
+    Быстрое и качественное обслуживание. <br>
+    По желанию доставка в удобное для Вас время.</p>
 
         </div>
     </div>
@@ -830,13 +864,14 @@ function showDivs(n) {
         </div>
         <ul>
             <li><a href="#">Уголки</a></li>
-            <li><a href="#">Пластины</a></li>
             <li><a href="#">Опоры</a></li>
+            <li><a href="#">Пластины</a></li>
             <li><a href="#">Ленты</a></li>
-            <li><a href="#">Показать все</a></li>
+            <li><a href="#" style="text-decoration: underline;">Показать все</a></li>
         </ul>
     </nav>
 </div>
+
 <footer class="Footer">
     <div class="Container">
         <p>&copy; 2018 Monolit All Rights Reserved.</p>
