@@ -161,10 +161,12 @@ red {
   position: relative;
   top: 1px; }
   .Header .Left .SearchTxt {
+    outline: none;
     box-sizing: border-box;
     width: 680px;
     height: 38px;
     border: 1px solid #e6e6e6;
+    border-radius: 25px 0 0 25px;
     background-color: #ffffff;
     padding: 0px 15px;
     color: #a4a4a4;
@@ -174,6 +176,7 @@ red {
    
     letter-spacing: 0.7px; }
   .Header .Left .SearchBtn {
+    outline: none;
     width: 36px;
     height: 38px;
     box-sizing: border-box;
@@ -191,12 +194,60 @@ red {
       font-family: Lato;
     }
 
+.formbtn{
+  width: 60%;
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 3px 3px 3px 3px;
+
+}
+.formbtn:hover{
+  background-color: #5BBE9D;
+  border: 1px solid #5CC19F;
+}
+
+input, select {
+    width: 95%;
+  height: 36px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 0px;
+  color: #222224;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-radius: 23px;
+}
+textarea{
+    width: 95%;
+  height: 90px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 0px;
+  color: #222224;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
 /*pink
  * color: $pink
  * font-weight: 900
  * font-size: inherit */
 .Header .Left,
 .Header .Right {
+
   display: flex;
   align-items: center;
   align-content: center; }
@@ -1026,6 +1077,7 @@ a {
   flex-direction: column; }
 
 .Subscribe {
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
   margin: 0px auto;
   max-width: 1600px;
   min-width: 1140px;
@@ -1035,10 +1087,11 @@ a {
   justify-content: center;
   position: relative; }
 
-.Subscribe .Bkg {
-  width: 100%;
-  filter: alpha(opacity=0.65);
-  opacity: 0.65; }
+
+.Bkg1{
+  opacity: 0.7; 
+   width: 100%;
+}
 
 .Subscribe .Sub {
   width: 1140px;
@@ -1057,42 +1110,6 @@ a {
   background: #fff;
   z-index: 2; }
 
-.Subscribe .Left {
-  width: 570px;
-  box-sizing: border-box;
-  height: inherit;
-  font-size: 56px;
-  z-index: 1;
-  display: flex;
-  padding-top: 110px; }
-
-.Subscribe .Left > div {
-  margin-right: 28px; }
-
-.Subscribe .Sub .Left p {
-  color: #222224;
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-style: italic;
-  line-height: 26px;
-  /* Text style for "тАЬ, Vestibu" */
-  letter-spacing: 0.4px;
-  width: 386px; }
-
-.Subscribe .Sub .Left h3 {
-  color: #5BBE9D;
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.4px;
-  margin-top: 19px; }
-
-.Subscribe .Sub .Left h4 {
-  color: #222224;
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 0.3px;
-  margin-top: 5px; }
 
 .SliderRow {
   display: flex;
@@ -1112,18 +1129,27 @@ a {
   cursor: pointer; }
 
 .Subscribe .Right {
-  width: 570px;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: black;
+  box-shadow: 0 0 20px rgba(0,0,0,0.9);
+    opacity: 0.9;
+  margin-top: 15px;
+  width: 80%;
   box-sizing: border-box;
   height: inherit;
-  z-index: 1;
-  padding: 148px 91px 168px 92px;
+  z-index: 2000;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
 .Subscribe .Right h5 {
-  color: #222224;
+  color:#EFEFEF;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -1145,31 +1171,57 @@ a {
   display: flex;
   flex-direction: row; }
 
-.Subscribe .Right form input[type="email"] {
-  width: 282px;
-  height: 46px;
+.Subscribe .Right form input {
+  outline: none;
+  width: 300px;
+  height: 60px;
   box-sizing: border-box;
-  background-color: #e1e1e1;
-  border: 0px;
-  color: #222224;
+  background-color:#F4F4F4;
+
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  font-style: oblique;
   font-weight: 400;
   letter-spacing: 0.35px;
   padding-left: 20px;
   padding-right: 5px;
-  border-radius: 23px 0px 0px 23px; }
+  margin-bottom: 5px;
+ 
+  border-radius: 23px; }
 
-   input,
-                textarea {
-                    outline:none;
-                }
+
+  .Subscribe .Right form textarea {
+      outline: none;
+
+    margin-left: 10px;
+  width: 350px;
+  height: 257px;
+  box-sizing: border-box;
+   background-color: #F4F4F4;
+  color: #000000;
+ 
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: oblique;
+  letter-spacing: 0.35px;
+  padding-left: 20px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 23px; }
+
+  #ostestarea{
+    float: right;
+  }
+
+
 
 .Subscribe .Right form input[type="submit"] {
-  width: 104px;
-  height: 46px;
+  margin-left: 10px;
+  width: 350px;
+  height: 50px;
   box-sizing: border-box;
-  border-radius: 0 23px 23px 0;
+  border-radius: 23px;
   background-color: #5BBE9D;
   border: 0px;
   color: #ffffff;
@@ -2731,19 +2783,22 @@ left: 0;
 -o-transition-duration: 0.3s;
 transition-duration: 0.3s;
 background: #f60;
+border-radius: 0 10px 10px 0;
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
 color:#fff;
 padding:5px;
 }
 #slide_in {
+   z-index: 2100;
 position: fixed;
-min-height:440px;
+min-height:450px;
 top: 150px;
 left: -300px;
 -webkit-transition-duration: 0.3s;
 -moz-transition-duration: 0.3s;
 -o-transition-duration: 0.3s;
 transition-duration: 0.3s;
-box-shadow:0 0 5px #777;
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
 background: #f60;
 color:#fff;
 width:300px;
@@ -2764,3 +2819,17 @@ left: 0;
  display: none;
 }
 
+.osform{
+display: inline-block;
+
+}
+
+.osform1{
+
+  width: 300px;
+  float: left;
+}
+
+.osform2{
+  float: right;
+}

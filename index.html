@@ -308,7 +308,7 @@ function showDivs(n) {
 
 
 <input class="open" id="top-box" type="checkbox" hidden>
-       <label class="btn" for="top-box"></label>
+       <label class="btn" for="top-box" title="Наше местоположение на карте"></label>
         <div class="top-panel">
              
             <div class="mapmap">
@@ -327,20 +327,22 @@ function showDivs(n) {
   <div id="slide_in">
     <form style="text-align: center;" name="test" method="post" action="input1.php">
 
-<h6 style="text-align: center;">Заполните форму заказа под каждым из товаров или закажите обратный звонок в этой форме и мы перезвоним</h6>
+<h6 style="text-align: center;">Заполните форму и мы вам перезвоним</h6>
+<hr>
 
   <p><b>Ваше имя:</b><br>
-   <input type="text" name="name" >
+   <input class="forminp" type="text" name="name" >
   </p>
  
   <p>Телефон:<Br>
-    <input type="tel" name="tel"><br> <br>
+    <input class="forminp" type="tel" name="tel" ><br> <br>
      <p>Сообщение:</p>
-<textarea name="textarea" id="22" cols="20" rows="5"></textarea>
-    <br> <br>
+<textarea class="forminp" name="textarea" id="22" cols="20" rows="5" placeholder="Перезвоните мне"></textarea>
 
-  <p><input type="submit" value="Отправить">
-   <input type="reset" value="Очистить"></p>
+<br><br>
+
+  <p><input type="submit" class="formbtn" value="Отправить">
+
  </form>
 
   </div>
@@ -756,26 +758,30 @@ function showDivs(n) {
 <div class="Subscribe">
 
     <div class="Container Sub">
-        <div class="Left">
-            <div>
-                <img src="img/BinBurhan.png" alt="Photo Bin Burhan">
-            </div>
-            <div>
-                <p>Подпишитесь для получения свежей информации о скидках и акционных предложениях</p>
-                
-            </div>
-        </div>
-        <div class="VertLine"></div>
+       
+       
         <div class="Right">
-            <h5>Подписаться</h5>
-            <h6>для получения промокода</h6>
+            <h5>ИНФОРМАЦИЯ ДЛЯ ЗАКАЗА</h5>
             <form action="#">
-                <input class="Txt" type="email" placeholder="Введите свой Email"><input class="SearchBtn" type="submit"
-                                                                                      value="Подписаться">
+                 <div class="osform"> 
+                    <div class="osform1"> 
+                <input class="Txt" type="text" placeholder="* Фамилия">
+                <input class="Txt" type="text" placeholder="* Имя">
+                <input class="Txt" type="text" placeholder="* Отчество">
+                <input class="Txt" type="text" placeholder="* Телефон">
+                <input class="Txt" type="text" placeholder="* E-mail"></div>
+                    <div class="osform2">
+                        <textarea name="info" id="" cols="30" rows="10" placeholder="Опишите подробно Ваш заказ и в скором времени мы перезвоним для уточнения данных..."></textarea><br>
+                        <input class="SearchBtn" type="submit" value="ОФОРМИТЬ">
+                    </div>
+                
+                
+                </div>   
+              
             </form>
         </div>
     </div>
-    <img class="Bkg" src="img/subscribe.jpg" alt="subscribe background">
+    <img class="Bkg1" src="img/os-fm.jpg" alt="subscribe background">
 
 </div>
 <div class="FooterMenu Container">
@@ -787,11 +793,14 @@ function showDivs(n) {
                 
             </span>
         </a>
-        <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate
-            multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes
-            and cross-unit partnerships.</p>
-        <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior
-            initiatives for wireless technologies. Dynamically optimize.</p>
+        <p>Наша компания является одной из крупных организаций по продаже строительного крепежа. <br>
+Основными направлениями являются производство и реализация крепежных изделий. <br>
+В наши задачи входит поддержание широкого ассортимента и обязательного наличия на складе. <br>
+
+Гибкая система скидок и индивидуальный подход к каждому клиенту располагает к длительному совместному сотрудничеству. <br>
+
+ 
+</p>
     </div>
     <nav class="Col L2">
         <div class="Head">
