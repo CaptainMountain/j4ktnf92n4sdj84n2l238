@@ -1129,7 +1129,7 @@ a {
   cursor: pointer; }
 
 .Subscribe .Right {
-
+  z-index: 100;
   border-radius: 25px;
   background-color:#242424;
   box-shadow: 0 0 20px rgba(0,0,0,0.9);
@@ -1138,7 +1138,6 @@ a {
   width: 80%;
   box-sizing: border-box;
   height: inherit;
-  z-index: 2000;
   margin-left: 150px;
   margin-right: 150px;
   padding-top: 10px;
@@ -1241,7 +1240,6 @@ a {
   width: 80%;
   box-sizing: border-box;
   height: inherit;
-  z-index: 2000;
   margin-left: 300px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -2794,7 +2792,7 @@ grey {
 
 /* Карты */
 .top-panel {
-z-index: 2000;
+z-index: 2200;
   display:block;
   overflow:hidden;
     background: #39464e;
@@ -2809,6 +2807,10 @@ z-index: 2000;
     
     }
 
+
+.mapmap{
+  z-index: 2200;
+}
 
 iframe{
 float:left;
@@ -2877,7 +2879,7 @@ label.btn:after {
 
 
 #slide_lft{
-  z-index: 2100;
+  z-index: 3000;
 position: fixed;
 top: 500px;
 left: 0;
@@ -2941,3 +2943,5 @@ display: inline-block;
 .osform2{
   float: right;
 }
+
+

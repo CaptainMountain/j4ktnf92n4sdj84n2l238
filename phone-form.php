@@ -31,7 +31,7 @@
     
     <!-- endbuild -->
     <script src="js/init.js"></script>
-     <link rel="shortcut icon" href="../app/img/favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -77,7 +77,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
 <header class="Header">
     <div class="Container HeaderFlex">
         <div class="Left">
-            <a class="Logo" href="index.php">
+            <a class="Logo" href="index.html">
                <img class="Logo__Image" src="img/logogo.png" style="width: 240px; height: 60px; margin-left: -50px; margin-right: 25px; opacity: 0.8;" alt="logo">
                  <!--<span class="Logo__Text Logo__Text_color_black">М
                 <span class="Logo__Text_color_pink_bold">онолит</span>-->
@@ -132,150 +132,150 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
 <div id="upbutton"></div>
 <nav class="Menu Container">
     <ul>
-         <li><a href="ugolki.php" >Уголки</a>
+         <li><a href="ugolki.html" >Уголки</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Уголки:</h4>
                     <ul>
-                        <li><a href="../app/detail-ugolki/mebelnie-ugolki.php">-Мебельные уголки</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok.php">-Крепёжный уголок</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-usilennij-ugolok.php">-Крепёжный усиленный уголок</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok-ravnostoronnij.php">-Крепёжный уголок равносторонний</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok-s-2-usileniem.php">-Крепёжный уголок с двойным усилением</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok-assimetrichnij.php">-Крепёжный уголок ассиметричный</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok-pod-135-gradusov.php">-Крепёжный уголок под 135°</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok-z-obraznij.php">-Крепёжный уголок Z-образный</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok-ankernij.php">-Крепёжный анкерный уголок</a></li>
-                        <li><a href="../app/detail-ugolki/krepejnij-ugolok-ravnostoronnij-shirokij.php">-Крепёжный уголок равносторонний, широкий</a></li>
-                        <li><a href="../app/detail-ugolki/uglovoi-soedinitel.php">-Угловой соединитель</a></li>
+                        <li><a href="detail-ugolki/mebelnie-ugolki.html">-Мебельные уголки</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok.html">-Крепёжный уголок</a></li>
+                        <li><a href="detail-ugolki/krepejnij-usilennij-ugolok.html">-Крепёжный усиленный уголок</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok-ravnostoronnij.html">-Крепёжный уголок равносторонний</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok-s-2-usileniem.html">-Крепёжный уголок с двойным усилением</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok-assimetrichnij.html">-Крепёжный уголок ассиметричный</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok-pod-135-gradusov.html">-Крепёжный уголок под 135°</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok-z-obraznij.html">-Крепёжный уголок Z-образный</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok-ankernij.html">-Крепёжный анкерный уголок</a></li>
+                        <li><a href="detail-ugolki/krepejnij-ugolok-ravnostoronnij-shirokij.html">-Крепёжный уголок равносторонний, широкий</a></li>
+                        <li><a href="detail-ugolki/uglovoi-soedinitel.html">-Угловой соединитель</a></li>
                     </ul>
                 </div>
             </div>
         </li>
-        <li><a href="oporu.php">Опоры</a>
+        <li><a href="oporu.html">Опоры</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Опоры:</h4>
                     <ul>
-                        <li><a href="../app/detail-oporu/skolzyashyaya-opora.php">-Скользящая опора</a></li>
-                        <li><a href="../app/detail-oporu/opora-brusa.php">-Опора бруса</a></li>
-                        <li><a href="../app/detail-oporu/opora-brusa-zakrutaya.php">-Опора бруса закрытая</a></li>
-                        <li><a href="../app/detail-oporu/opora-balki.php">-Опора балки</a></li>
-                        <li><a href="../app/detail-oporu/derjatel-balki.php">-Держатель балки</a></li>
-                        <li><a href="../app/detail-oporu/skolzashaya-opora-dlya-stropil.php">-Скользящая опора для стропил</a></li>
-                        <li><a href="../app/detail-oporu/skolzashaya-opora-dlya-stropil-zakrutaya.php">-Скользящая опора для стропил закрытая</a></li>
-                        <li><a href="../app/detail-oporu/zakladnaya-opora.php">-Закладная опора</a></li>
-                        <li><a href="../app/detail-oporu/osnovanie-kolonnu.php">-Основание колонны</a></li>
+                        <li><a href="detail-oporu/skolzyashyaya-opora.html">-Скользящая опора</a></li>
+                        <li><a href="detail-oporu/opora-brusa.html">-Опора бруса</a></li>
+                        <li><a href="detail-oporu/opora-brusa-zakrutaya.html">-Опора бруса закрытая</a></li>
+                        <li><a href="detail-oporu/opora-balki.html">-Опора балки</a></li>
+                        <li><a href="detail-oporu/derjatel-balki.html">-Держатель балки</a></li>
+                        <li><a href="detail-oporu/skolzashaya-opora-dlya-stropil.html">-Скользящая опора для стропил</a></li>
+                        <li><a href="detail-oporu/skolzashaya-opora-dlya-stropil-zakrutaya.html">-Скользящая опора для стропил закрытая</a></li>
+                        <li><a href="detail-oporu/zakladnaya-opora.html">-Закладная опора</a></li>
+                        <li><a href="detail-oporu/osnovanie-kolonnu.html">-Основание колонны</a></li>
                     </ul>
                 </div>
             </div>
         </li>   
-        <li><a href="plastinu.php">Пластины</a>
+        <li><a href="plastinu.html">Пластины</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Пластины:</h4>
                     <ul>
-                        <li><a href="../app/detail-plastinu/krepejnaya-plastina.php">-Крепёжная пластина</a></li>
-                        <li><a href="../app/detail-plastinu/plastina-soedinitelnaya.php">-Пластина соединительная</a></li>
-                        <li><a href="../app/detail-plastinu/gvozdevaya-plastina.php">-Гвоздевая пластина</a></li>
+                        <li><a href="detail-plastinu/krepejnaya-plastina.html">-Крепёжная пластина</a></li>
+                        <li><a href="detail-plastinu/plastina-soedinitelnaya.html">-Пластина соединительная</a></li>
+                        <li><a href="detail-plastinu/gvozdevaya-plastina.html">-Гвоздевая пластина</a></li>
                 
                     </ul>
                 </div>
             </div>
         </li>
-        <li><a href="lentu.php">Ленты</a>
+        <li><a href="lentu.html">Ленты</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Ленты:</h4>
                     <ul>
-                        <li><a href="../app/detail-lentu/lenta-montajnaya.php">-Лента монтажная</a></li>
-                        <li><a href="../app/detail-lentu/lenta-montajnaya-14-mm.php">-Лента монтажная <br> (&Oslash отв. 14мм.)</a></li>
-                        <li><a href="../app/detail-lentu/lenta-dlya-ventilyacii_pryamaya.php">-Лента для вентиляции прямая</a></li>
-                        <li><a href="../app/detail-lentu/lenta-dlya-ventilyacii_volnoobraznaya.php">-Лента для вентиляции волнообразная</a></li>
-                        <li><a href="../app/detail-lentu/perforirovannaya-lenta-dlya-teplogo-pola.php">-Перфорированная лента для тёплого пола</a></li>
-                        <li><a href="../app/detail-lentu/tarnaya-lenta.php">-Тарная лента</a></li>
+                        <li><a href="detail-lentu/lenta-montajnaya.html">-Лента монтажная</a></li>
+                        <li><a href="detail-lentu/lenta-montajnaya-14-mm.html">-Лента монтажная <br> (&Oslash отв. 14мм.)</a></li>
+                        <li><a href="detail-lentu/lenta-dlya-ventilyacii_pryamaya.html">-Лента для вентиляции прямая</a></li>
+                        <li><a href="detail-lentu/lenta-dlya-ventilyacii_volnoobraznaya.html">-Лента для вентиляции волнообразная</a></li>
+                        <li><a href="detail-lentu/perforirovannaya-lenta-dlya-teplogo-pola.html">-Перфорированная лента для тёплого пола</a></li>
+                        <li><a href="detail-lentu/tarnaya-lenta.html">-Тарная лента</a></li>
                         
                     </ul>
                 </div>
             </div>
         </li>
-        <li><a href="ankeru.php">Анкеры</a>
+        <li><a href="ankeru.html">Анкеры</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Анкеры:</h4>
                     <ul>
-                        <li><a href="detail-ankeru/anker-regul-po-vusote.php">-Анкер регулировочный <br> по высоте</a></li>
+                        <li><a href="detail-ankeru/anker-regul-po-vusote.html">-Анкер регулировочный <br> по высоте</a></li>
                         
                     </ul>
                 </div>
             </div>
         </li>
-        <li><a href="krepeju.php">Крепежи</a>
+        <li><a href="krepeju.html">Крепежи</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Крепежи:</h4>
                     <ul>
-                        <li><a href="../app/detail-krepeji/krepej-dlya-stoek.php">-Крепёж для стоек</a></li>
-                        <li><a href="../app/detail-krepeji/okonnue-plastinu.php">-Оконные пластины</a></li>
-                        <li><a href="../app/detail-krepeji/podves-pryamoi.php">-Подвес прямой</a></li>
-                        <li><a href="../app/detail-krepeji/krab.php">-Краб</a></li>
-                        <li><a href="../app/detail-krepeji/shaiba-s-muftoi.php">-Шайба с муфтой</a></li>
-                        <li><a href="../app/detail-krepeji/skoba-dlya-vagonki.php">-Скоба для вагонки</a></li>
-                        <li><a href="../app/detail-krepeji/krepej-dlya-blokhausa.php">-Крепёж для блокхауса</a></li>
-                        <li><a href="../app/detail-krepeji/prujinnij-uzel.php">-Пружинный узел</a></li>
-                        <li><a href="../app/detail-krepeji/krepej-dlya-terrasnoi-doski.php">-Крепёж для террасной доски</a></li>
-                        <li><a href="../app/detail-krepeji/krepej-dlya-stenovih-panelei-planfix.php">-Крепёж для стеновых панелей "Планфикс"</a></li>
-                        <li><a href="../app/detail-krepeji/krepej-dlya-terrasnoi-doski-TWIN.php">-Крепёж для террасной доски "TWIN"</a></li>
-                        <li><a href="../app/detail-krepeji/kreplenie-stenovoe.php">-Крепление стеновое</a></li>
-                        <li><a href="../app/detail-krepeji/kruchok-vetrovoi.php">-Крючок ветровой</a></li>
-                        <li><a href="../app/detail-krepeji/petlya-nakladnaya-cunk.php">-Петля накладная, цинк</a></li>
-                        <li><a href="../app/detail-krepeji/petlya-strela.php">-Петля стрела</a></li>
-                        <li><a href="../app/detail-krepeji/podveski-mebelnie-cunk.php">-Подвески мебельные, цинк</a></li>
-                        <li><a href="../app/detail-krepeji/polkoderjatel.php">-Полкодержатель</a></li>
-                        <li><a href="../app/detail-krepeji/proboi-ushko-cunk.php">-Пробой ушко, цинк</a></li>
-                        <li><a href="../app/detail-krepeji/ruchka-skoba.php">-Ручка скоба</a></li>
-                        <li><a href="../app/detail-krepeji/zadvizhka-cunk.php">-Задвижка, цинк</a></li>
+                        <li><a href="detail-krepeji/krepej-dlya-stoek.html">-Крепёж для стоек</a></li>
+                        <li><a href="detail-krepeji/okonnue-plastinu.html">-Оконные пластины</a></li>
+                        <li><a href="detail-krepeji/podves-pryamoi.html">-Подвес прямой</a></li>
+                        <li><a href="detail-krepeji/krab.html">-Краб</a></li>
+                        <li><a href="detail-krepeji/shaiba-s-muftoi.html">-Шайба с муфтой</a></li>
+                        <li><a href="detail-krepeji/skoba-dlya-vagonki.html">-Скоба для вагонки</a></li>
+                        <li><a href="detail-krepeji/krepej-dlya-blokhausa.html">-Крепёж для блокхауса</a></li>
+                        <li><a href="detail-krepeji/prujinnij-uzel.html">-Пружинный узел</a></li>
+                        <li><a href="detail-krepeji/krepej-dlya-terrasnoi-doski.html">-Крепёж для террасной доски</a></li>
+                        <li><a href="detail-krepeji/krepej-dlya-stenovih-panelei-planfix.html">-Крепёж для стеновых панелей "Планфикс"</a></li>
+                        <li><a href="detail-krepeji/krepej-dlya-terrasnoi-doski-TWIN.html">-Крепёж для террасной доски "TWIN"</a></li>
+                        <li><a href="detail-krepeji/kreplenie-stenovoe.html">-Крепление стеновое</a></li>
+                        <li><a href="detail-krepeji/kruchok-vetrovoi.html">-Крючок ветровой</a></li>
+                        <li><a href="detail-krepeji/petlya-nakladnaya-cunk.html">-Петля накладная, цинк</a></li>
+                        <li><a href="detail-krepeji/petlya-strela.html">-Петля стрела</a></li>
+                        <li><a href="detail-krepeji/podveski-mebelnie-cunk.html">-Подвески мебельные, цинк</a></li>
+                        <li><a href="detail-krepeji/polkoderjatel.html">-Полкодержатель</a></li>
+                        <li><a href="detail-krepeji/proboi-ushko-cunk.html">-Пробой ушко, цинк</a></li>
+                        <li><a href="detail-krepeji/ruchka-skoba.html">-Ручка скоба</a></li>
+                        <li><a href="detail-krepeji/zadvizhka-cunk.html">-Задвижка, цинк</a></li>
                     </ul>
                 </div>
             </div>
         </li>
-         <li><a href="fixators.php">Фиксаторы</a>
+         <li><a href="fixators.html">Фиксаторы</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Фиксаторы:</h4>
                     <ul>
-                        <li><a href="../app/detail-fixators/zvezdochka.php">-Фиксатор арматуры "звездочка"</a></li>
-                        <li><a href="../app/detail-fixators/stulchik.php">-Фиксатор арматуры "стульчик"</a></li>
-                        <li><a href="../app/detail-fixators/kubik.php">-Фиксатор арматуры "кубик"</a></li>
-                        <li><a href="../app/detail-fixators/podstavka-opora.php">-Подставка-опора на сыпучие поверхности, для кубика 35-50</a></li>
-                        <li><a href="../app/detail-fixators/truba.php">-Труба ПНД</a></li>
-                        <li><a href="../app/detail-fixators/konus.php">-Фиксатор "конус"</a></li>
+                        <li><a href="detail-fixators/zvezdochka.html">-Фиксатор арматуры "звездочка"</a></li>
+                        <li><a href="detail-fixators/stulchik.html">-Фиксатор арматуры "стульчик"</a></li>
+                        <li><a href="detail-fixators/kubik.html">-Фиксатор арматуры "кубик"</a></li>
+                        <li><a href="detail-fixators/podstavka-opora.html">-Подставка-опора на сыпучие поверхности, для кубика 35-50</a></li>
+                        <li><a href="detail-fixators/truba.html">-Труба ПНД</a></li>
+                        <li><a href="detail-fixators/konus.html">-Фиксатор "конус"</a></li>
                         
                     </ul>
                 </div>
             </div>
         </li>
-        <li><a href="samorezu.php">Саморезы</a>
+        <li><a href="samorezu.html">Саморезы</a>
             <div class="Square10"></div>
             <div class="DropDownMenu Row Swing-in-top-fwd">
                 <div class="Column">
                     <h4>Саморезы:</h4>
                     <ul>
-                        <li><a href="../app/detail-samorezu/samorezu-chernie-po-derevy.php">-Саморезы черные по дереву</a></li>
-                        <li><a href="../app/detail-samorezu/samorezu-chernie-po-metallu.php">-Саморезы черные по металлу</a></li>
-                        <li><a href="../app/detail-samorezu/samorezu-s-pressshaiboi-first.php">-Саморезы с прессшайбой, цинк, наконечник-острый 1</a></li>
-                        <li><a href="../app/detail-samorezu/samorezu-s-pressshaiboi-second.php">-Саморезы с прессшайбой, цинк, наконечник-острый 2</a></li>
-                        <li><a href="../app/detail-samorezu/samorezu-zheltie-po-derevy.php">-Саморезы желтые по дереву</a></li>
-                        <li><a href="../app//detail-samorezu/samorezu-zheltie-universalnie.php">-Саморезы желтые универсальные</a></li>
-                        <li><a href="../app/detail-samorezu/samorezu-krovelnie-cunk.php">-Саморезы кровельные, цинк</a></li>
-                        <li><a href="../app/detail-samorezu/samorezu-okonnie-zheltie.php">-Саморезы оконные, желтые</a></li>
+                        <li><a href="detail-samorezu/samorezu-chernie-po-derevy.html">-Саморезы черные по дереву</a></li>
+                        <li><a href="detail-samorezu/samorezu-chernie-po-metallu.html">-Саморезы черные по металлу</a></li>
+                        <li><a href="detail-samorezu/samorezu-s-pressshaiboi-first.html">-Саморезы с прессшайбой, цинк, наконечник-острый 1</a></li>
+                        <li><a href="detail-samorezu/samorezu-s-pressshaiboi-second.html">-Саморезы с прессшайбой, цинк, наконечник-острый 2</a></li>
+                        <li><a href="detail-samorezu/samorezu-zheltie-po-derevy.html">-Саморезы желтые по дереву</a></li>
+                        <li><a href="/detail-samorezu/samorezu-zheltie-universalnie.html">-Саморезы желтые универсальные</a></li>
+                        <li><a href="detail-samorezu/samorezu-krovelnie-cunk.html">-Саморезы кровельные, цинк</a></li>
+                        <li><a href="detail-samorezu/samorezu-okonnie-zheltie.html">-Саморезы оконные, желтые</a></li>
                         
                     </ul>
                 </div>
@@ -324,7 +324,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
 </div>
 <div class="Products Container">
     <article class="Product">
-        <a class="Product__Link" href="ugolki.php">
+        <a class="Product__Link" href="ugolki.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/u1.jpg" alt="product1">
                 <div class="Product__AddBtn">
@@ -370,7 +370,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
         </a>
     </article>
     <article class="Product">
-        <a class="Product__Link" href="oporu.php">
+        <a class="Product__Link" href="oporu.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/o4.jpg" alt="product2">
                 <div class="Product__AddBtn">
@@ -416,7 +416,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
         </a>
     </article>
     <article class="Product">
-        <a class="Product__Link" href="plastinu.php">
+        <a class="Product__Link" href="plastinu.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/p1.jpg" alt="product3">
                 <div class="Product__AddBtn">
@@ -462,7 +462,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
         </a>
     </article>
     <article class="Product">
-        <a class="Product__Link" href="lentu.php">
+        <a class="Product__Link" href="lentu.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/l5.jpg" alt="product4">
                 <div class="Product__AddBtn">
@@ -508,7 +508,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
         </a>
     </article>
     <article class="Product">
-        <a class="Product__Link" href="ankeru.php">
+        <a class="Product__Link" href="ankeru.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/a1.jpg" alt="product5">
                 <div class="Product__AddBtn">
@@ -554,7 +554,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
         </a>
     </article>
     <article class="Product">
-        <a class="Product__Link" href="krepeju.php">
+        <a class="Product__Link" href="krepeju.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/k5.jpg" alt="product6">
                 <div class="Product__AddBtn">
@@ -600,7 +600,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
         </a>
     </article>
     <article class="Product">
-        <a class="Product__Link" href="fixators.php">
+        <a class="Product__Link" href="fixators.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/f5.jpeg" alt="product7">
                 <div class="Product__AddBtn">
@@ -646,7 +646,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
         </a>
     </article>
     <article class="Product">
-        <a class="Product__Link" href="samorezu.php">
+        <a class="Product__Link" href="samorezu.html">
             <div class="Product__Photo">
                 <img class="Product__Image" src="img/details/s5.jpg" alt="product8">
                 <div class="Product__AddBtn">
@@ -693,7 +693,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
     </article>
 </div>
 <div class="Container Single-button">
-    <a href="products.php">
+    <a href="products.html">
         <div class="ArrowButton Button">Показать все товары
             <span class="Arrow1"></span>
             <span class="Arrow2"></span>
@@ -728,7 +728,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
 </div>
 <div class="FooterMenu Container">
     <div class="Col L1">
-        <a class="Logo" href="index.php">
+        <a class="Logo" href="index.html">
             <!--<img class="Logo__Image" src="img/logo.png" alt="logo">-->
             <span class="Logo__Text Logo__Text_color_black">М
                 <span class="Logo__Text_color_pink_bold">онолит</span>
@@ -749,7 +749,7 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
             Монолит
         </div>
         <ul>
-            <li><a href="index.php">Главная</a></li>
+            <li><a href="index.html">Главная</a></li>
             <li><a href="#">Магазин</a></li>
             <li><a href="#">О Нас</a></li>
             <li><a href="#">Как мы работаем</a></li>
@@ -771,10 +771,10 @@ _tmr.push({id: "3063002", type: "pageView", start: (new Date()).getTime()});
             Категории
         </div>
         <ul>
-            <li><a href="ugolki.php">Уголки</a></li>
-            <li><a href="oporu.php">Опоры</a></li>
-            <li><a href="plastinu.php">Пластины</a></li>
-            <li><a href="products.php" style="text-decoration: underline;">Показать все</a></li>
+            <li><a href="ugolki.html">Уголки</a></li>
+            <li><a href="oporu.html">Опоры</a></li>
+            <li><a href="plastinu.html">Пластины</a></li>
+            <li><a href="products.html" style="text-decoration: underline;">Показать все</a></li>
             <li><a href="Monolit(price).xlsx" download="Monolit(price).xlsx" style="color: #2BBBAD; text-decoration: underline;">Скачать прайс</a></li>
         </ul>
             
